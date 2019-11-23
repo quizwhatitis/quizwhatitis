@@ -4,7 +4,7 @@ export default (req, res) => {
     quizzes: [
       {
         id: 1,
-        displayName: 'What brand of soup are you?',
+        displayName: 'What soap are you?',
       },
     ]
   };
