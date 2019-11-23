@@ -1,6 +1,7 @@
 const fetch = require("node-fetch");
 const { promisify } = require("util");
 const parseString = promisify(require("xml2js").parseString);
+const fs = require("fs");
 
 const query = `
 SELECT ?Wikimedia_list_article ?Wikimedia_list_articleLabel WHERE {
@@ -11,10 +12,22 @@ SELECT ?Wikimedia_list_article ?Wikimedia_list_articleLabel WHERE {
 `;
 
 const main = async () => {
-  const response = await fetch(
-    "https://query.wikidata.org/sparql?query=" + encodeURIComponent(query)
-  );
-  const result = await parseString(await response.text());
+  let res;
+  try {
+    res = fs.readFileSync("allLists.xml").toString();
+  } catch (e) {
+    console.log("could not find cache in allLists.xml, sending query");
+    res = await fetch(
+      "https://query.wikidata.org/sparql?query=" + encodeURIComponent(query)
+    );
+    fs.writeFileSync("allLists.xml", await res.text());
+  }
+
+  // const result = (await parseString(res)).sparql.results[0].result;
+  // const response = await fetch(
+  //   "https://query.wikidata.org/sparql?query=" + encodeURIComponent(query)
+  // );
+  const result = await parseString(res);
 
   const results = result.sparql.results.reduce((acc, r) => {
     return [...acc, ...r.result];
