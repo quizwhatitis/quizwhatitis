@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../../components/nav'
+import fetch from 'isomorphic-unfetch'
 
 function Quiz ({questions}) {
   const {title, answers} = questions[0]
@@ -34,28 +35,12 @@ Quiz.getInitialProps = async ({ req }) => {
   // we can load stuff from the DB/fs here
   // TODO req doesn't work?
   // const quiz = await getQuiz(req.query)
-  const quiz = await getQuiz({})
-  return quiz
+  const id = 1;
+  const response = await fetch(`http://localhost:3000/api/quizzes/${id}`)
+  return response.json();
 }
 
 export default Quiz;
-
-async function getQuiz({id}) {
-  return {
-    id,
-    questions: [
-      {
-        title: '1. How foamy are you?',
-        answers: [
-          {text: 'No foam at all'},
-          {text: 'A little bit bubbly'},
-          {text: 'I am in the sweet spot'},
-          {text: 'Pure goodness'},
-        ],
-      },
-    ]
-  }
-}
 
 const style = <style>{`
 .hero {
