@@ -8,6 +8,7 @@ export default (req, res) => {
   else {
     // TODO: return the quiz questions here
     body = {
+      id: req.query.id,
       questions: [
         {
           text: '1. How foamy are you?',
