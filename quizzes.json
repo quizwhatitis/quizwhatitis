@@ -1,3098 +1,3872 @@
 [
   {
     "uri": "http://www.wikidata.org/entity/Q37554",
-    "title": "list of comets"
+    "title": "list of comets",
+    "id": "Q37554"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q9241",
-    "title": "list of constellations"
+    "title": "list of constellations",
+    "id": "Q9241"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q19760",
-    "title": "list of Roman theatres"
+    "title": "list of Roman theatres",
+    "id": "Q19760"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q33898",
-    "title": "list of language families"
+    "title": "list of language families",
+    "id": "Q33898"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q37155",
-    "title": "World Health Organization Model List of Essential Medicines"
+    "title": "World Health Organization Model List of Essential Medicines",
+    "id": "Q37155"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q42707",
-    "title": "list of cat breeds"
+    "title": "list of cat breeds",
+    "id": "Q42707"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q80975",
-    "title": "list of content management systems"
+    "title": "list of content management systems",
+    "id": "Q80975"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q22816",
-    "title": "list of national archives"
+    "title": "list of national archives",
+    "id": "Q22816"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16322",
-    "title": "list of cryptids"
+    "title": "list of cryptids",
+    "id": "Q16322"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q8892",
-    "title": "list of food preparation utensils"
+    "title": "list of food preparation utensils",
+    "id": "Q8892"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q56926",
-    "title": "list of fashion designers"
+    "title": "list of fashion designers",
+    "id": "Q56926"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q19880",
-    "title": "list of London Underground stations"
+    "title": "list of London Underground stations",
+    "id": "Q19880"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q47184",
-    "title": "list of boroughs and census areas in Alaska"
+    "title": "list of boroughs and census areas in Alaska",
+    "id": "Q47184"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q51805",
-    "title": "list of Star Wars characters"
+    "title": "list of Star Wars characters",
+    "id": "Q51805"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q22991",
-    "title": "list of space agencies"
+    "title": "list of space agencies",
+    "id": "Q22991"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q957",
-    "title": "list of lists of lists"
+    "title": "list of lists of lists",
+    "id": "Q957"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q40742",
-    "title": "list of poker hands"
+    "title": "list of poker hands",
+    "id": "Q40742"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q106984",
-    "title": "list of cities and towns in Estonia"
+    "title": "list of cities and towns in Estonia",
+    "id": "Q106984"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q109544",
-    "title": "list of cities in Mexico"
+    "title": "list of cities in Mexico",
+    "id": "Q109544"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q110164",
-    "title": "list of cities and towns in Armenia"
+    "title": "list of cities and towns in Armenia",
+    "id": "Q110164"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q136798",
-    "title": "list of wiki software"
+    "title": "list of wiki software",
+    "id": "Q136798"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q142330",
-    "title": "list of revolutions and rebellions"
+    "title": "list of revolutions and rebellions",
+    "id": "Q142330"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q135134",
-    "title": "list of cities and towns in Russia by population"
+    "title": "list of cities and towns in Russia by population",
+    "id": "Q135134"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q135601",
-    "title": "list of political parties in the United States"
+    "title": "list of political parties in the United States",
+    "id": "Q135601"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q189098",
-    "title": "list of municipalities of Spain"
+    "title": "list of municipalities of Spain",
+    "id": "Q189098"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q221173",
-    "title": "list of academic disciplines"
+    "title": "list of academic disciplines",
+    "id": "Q221173"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q198423",
-    "title": "list of sheep breeds"
+    "title": "list of sheep breeds",
+    "id": "Q198423"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q198442",
-    "title": "list of goat breeds"
+    "title": "list of goat breeds",
+    "id": "Q198442"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q198416",
-    "title": "list of pigeon breeds"
+    "title": "list of pigeon breeds",
+    "id": "Q198416"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q199683",
-    "title": "list of states with limited recognition"
+    "title": "list of states with limited recognition",
+    "id": "Q199683"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q213881",
-    "title": "list of Greek islands"
+    "title": "list of Greek islands",
+    "id": "Q213881"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q215825",
-    "title": "list of ambassadors from Germany"
+    "title": "list of ambassadors from Germany",
+    "id": "Q215825"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q188815",
-    "title": "list of cities in Belgium"
+    "title": "list of cities in Belgium",
+    "id": "Q188815"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q179371",
-    "title": "list of Formula One Grands Prix"
+    "title": "list of Formula One Grands Prix",
+    "id": "Q179371"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q188887",
-    "title": "list of cities in Portugal"
+    "title": "list of cities in Portugal",
+    "id": "Q188887"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q187103",
-    "title": "list of Arkansas state parks"
+    "title": "list of Arkansas state parks",
+    "id": "Q187103"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q180159",
-    "title": "list of mathematical symbols"
+    "title": "list of mathematical symbols",
+    "id": "Q180159"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q233729",
-    "title": "list of national anthems"
+    "title": "list of national anthems",
+    "id": "Q233729"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q249328",
-    "title": "list of diplomatic missions of the Holy See"
+    "title": "list of diplomatic missions of the Holy See",
+    "id": "Q249328"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q239767",
-    "title": "list of Rosa species"
+    "title": "list of Rosa species",
+    "id": "Q239767"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q236209",
-    "title": "list of Pokémon species"
+    "title": "list of Pokémon species",
+    "id": "Q236209"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q245555",
-    "title": "list of North Indian Ocean cyclone seasons"
+    "title": "list of North Indian Ocean cyclone seasons",
+    "id": "Q245555"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q252571",
-    "title": "list of Colorado state parks"
+    "title": "list of Colorado state parks",
+    "id": "Q252571"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q255734",
-    "title": "list of Connecticut state parks"
+    "title": "list of Connecticut state parks",
+    "id": "Q255734"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q250818",
-    "title": "list of Minnesota state parks"
+    "title": "list of Minnesota state parks",
+    "id": "Q250818"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q254224",
-    "title": "list of Kentucky state parks"
+    "title": "list of Kentucky state parks",
+    "id": "Q254224"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q252503",
-    "title": "list of Indiana state parks"
+    "title": "list of Indiana state parks",
+    "id": "Q252503"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q255966",
-    "title": "list of New Hampshire state parks"
+    "title": "list of New Hampshire state parks",
+    "id": "Q255966"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q244836",
-    "title": "list of cities in Andorra"
+    "title": "list of cities in Andorra",
+    "id": "Q244836"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q265614",
-    "title": "list of Pennsylvania state parks"
+    "title": "list of Pennsylvania state parks",
+    "id": "Q265614"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q261924",
-    "title": "list of Florida state parks"
+    "title": "list of Florida state parks",
+    "id": "Q261924"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q257940",
-    "title": "list of North Carolina state parks"
+    "title": "list of North Carolina state parks",
+    "id": "Q257940"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q264463",
-    "title": "list of Iowa state parks"
+    "title": "list of Iowa state parks",
+    "id": "Q264463"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q257032",
-    "title": "list of Missouri state parks"
+    "title": "list of Missouri state parks",
+    "id": "Q257032"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q260695",
-    "title": "list of Texas state parks"
+    "title": "list of Texas state parks",
+    "id": "Q260695"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q257721",
-    "title": "list of Wisconsin state parks"
+    "title": "list of Wisconsin state parks",
+    "id": "Q257721"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q257645",
-    "title": "list of Wyoming state parks"
+    "title": "list of Wyoming state parks",
+    "id": "Q257645"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q318153",
-    "title": "list of Internet top-level domains"
+    "title": "list of Internet top-level domains",
+    "id": "Q318153"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q278238",
-    "title": "list of New Gods"
+    "title": "list of New Gods",
+    "id": "Q278238"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q317936",
-    "title": "list of counties in California"
+    "title": "list of counties in California",
+    "id": "Q317936"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q312484",
-    "title": "list of designated terrorist organizations"
+    "title": "list of designated terrorist organizations",
+    "id": "Q312484"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q283057",
-    "title": "list of books of the Bible"
+    "title": "list of books of the Bible",
+    "id": "Q283057"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q279985",
-    "title": "list of Michigan state parks"
+    "title": "list of Michigan state parks",
+    "id": "Q279985"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q327077",
-    "title": "list of cities in Iran"
+    "title": "list of cities in Iran",
+    "id": "Q327077"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q285135",
-    "title": "list of Brooklyn neighborhoods"
+    "title": "list of Brooklyn neighborhoods",
+    "id": "Q285135"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q327658",
-    "title": "list of phobias"
+    "title": "list of phobias",
+    "id": "Q327658"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q371580",
-    "title": "list of hangul jamo"
+    "title": "list of hangul jamo",
+    "id": "Q371580"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q349953",
-    "title": "list of national parks of Germany"
+    "title": "list of national parks of Germany",
+    "id": "Q349953"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q371849",
-    "title": "list of chess traps"
+    "title": "list of chess traps",
+    "id": "Q371849"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q349938",
-    "title": "list of cities in Ecuador"
+    "title": "list of cities in Ecuador",
+    "id": "Q349938"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q423189",
-    "title": "lists of integrals"
+    "title": "lists of integrals",
+    "id": "Q423189"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q385562",
-    "title": "list of woods"
+    "title": "list of woods",
+    "id": "Q385562"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q443183",
-    "title": "list of historical parks of Thailand"
+    "title": "list of historical parks of Thailand",
+    "id": "Q443183"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q393871",
-    "title": "list of early East Slavic states"
+    "title": "list of early East Slavic states",
+    "id": "Q393871"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q430362",
-    "title": "list of former municipalities of Finland"
+    "title": "list of former municipalities of Finland",
+    "id": "Q430362"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q432852",
-    "title": "list of AMD microprocessors"
+    "title": "list of AMD microprocessors",
+    "id": "Q432852"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q450779",
-    "title": "list of hairstyles"
+    "title": "list of hairstyles",
+    "id": "Q450779"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q460334",
-    "title": "list of states in the Holy Roman Empire"
+    "title": "list of states in the Holy Roman Empire",
+    "id": "Q460334"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q460051",
-    "title": "list of International Space Station expeditions"
+    "title": "list of International Space Station expeditions",
+    "id": "Q460051"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q510357",
-    "title": "lists of cities by country"
+    "title": "lists of cities by country",
+    "id": "Q510357"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q580634",
-    "title": "list of motorcycle manufacturers"
+    "title": "list of motorcycle manufacturers",
+    "id": "Q580634"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q572962",
-    "title": "list of Districts of Bangkok"
+    "title": "list of Districts of Bangkok",
+    "id": "Q572962"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q547989",
-    "title": "list of artistic media"
+    "title": "list of artistic media",
+    "id": "Q547989"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q494785",
-    "title": "list of given names"
+    "title": "list of given names",
+    "id": "Q494785"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q593814",
-    "title": "list of deserts"
+    "title": "list of deserts",
+    "id": "Q593814"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q656011",
-    "title": "list of home computers"
+    "title": "list of home computers",
+    "id": "Q656011"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q517211",
-    "title": "list of desserts"
+    "title": "list of desserts",
+    "id": "Q517211"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q641400",
-    "title": "lists of centenarians"
+    "title": "lists of centenarians",
+    "id": "Q641400"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q509252",
-    "title": "list of motorways of Switzerland"
+    "title": "list of motorways of Switzerland",
+    "id": "Q509252"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q504783",
-    "title": "list of cities in Pennsylvania"
+    "title": "list of cities in Pennsylvania",
+    "id": "Q504783"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q523279",
-    "title": "list of Forgotten Realms deities"
+    "title": "list of Forgotten Realms deities",
+    "id": "Q523279"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q627843",
-    "title": "List of industrial disasters"
+    "title": "List of industrial disasters",
+    "id": "Q627843"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q592152",
-    "title": "list of cities in Ukraine"
+    "title": "list of cities in Ukraine",
+    "id": "Q592152"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q616660",
-    "title": "list of composers by name"
+    "title": "list of composers by name",
+    "id": "Q616660"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q605990",
-    "title": "list of ad hoc routing protocols"
+    "title": "list of ad hoc routing protocols",
+    "id": "Q605990"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q603432",
-    "title": "list of Mario franchise characters"
+    "title": "list of Mario franchise characters",
+    "id": "Q603432"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q672801",
-    "title": "list of Solar System probes"
+    "title": "list of Solar System probes",
+    "id": "Q672801"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q678323",
-    "title": "list of national parks"
+    "title": "list of national parks",
+    "id": "Q678323"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q681021",
-    "title": "list of Latin-script alphabets"
+    "title": "list of Latin-script alphabets",
+    "id": "Q681021"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q660765",
-    "title": "list of conductors"
+    "title": "list of conductors",
+    "id": "Q660765"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q692310",
-    "title": "list of Bach cantatas"
+    "title": "list of Bach cantatas",
+    "id": "Q692310"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q721683",
-    "title": "list of Autobots"
+    "title": "list of Autobots",
+    "id": "Q721683"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q721986",
-    "title": "list of computer worms"
+    "title": "list of computer worms",
+    "id": "Q721986"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q494735",
-    "title": "list of statistical packages"
+    "title": "list of statistical packages",
+    "id": "Q494735"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q493703",
-    "title": "list of apple cultivars"
+    "title": "list of apple cultivars",
+    "id": "Q493703"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q735757",
-    "title": "list of cities in Japan"
+    "title": "list of cities in Japan",
+    "id": "Q735757"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q721838",
-    "title": "list of Decepticons"
+    "title": "list of Decepticons",
+    "id": "Q721838"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q730326",
-    "title": "list of horse breeds"
+    "title": "list of horse breeds",
+    "id": "Q730326"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q728329",
-    "title": "list of Italian names"
+    "title": "list of Italian names",
+    "id": "Q728329"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q731288",
-    "title": "list of cuneiform signs"
+    "title": "list of cuneiform signs",
+    "id": "Q731288"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q716511",
-    "title": "list of DNS record types"
+    "title": "list of DNS record types",
+    "id": "Q716511"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q498604",
-    "title": "list of cities in Gabon"
+    "title": "list of cities in Gabon",
+    "id": "Q498604"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q487967",
-    "title": "list of cities in Colombia"
+    "title": "list of cities in Colombia",
+    "id": "Q487967"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q490055",
-    "title": "list of cities in Chile"
+    "title": "list of cities in Chile",
+    "id": "Q490055"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q737867",
-    "title": "list of navies"
+    "title": "list of navies",
+    "id": "Q737867"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q752132",
-    "title": "list of municipalities of the Netherlands"
+    "title": "list of municipalities of the Netherlands",
+    "id": "Q752132"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q750139",
-    "title": "list of political ideologies"
+    "title": "list of political ideologies",
+    "id": "Q750139"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q749445",
-    "title": "list of International Organization for Standardization standards"
+    "title": "list of International Organization for Standardization standards",
+    "id": "Q749445"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q770283",
-    "title": "list of animation studios"
+    "title": "list of animation studios",
+    "id": "Q770283"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q754679",
-    "title": "list of architects"
+    "title": "list of architects",
+    "id": "Q754679"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q777402",
-    "title": "list of counties in Arkansas"
+    "title": "list of counties in Arkansas",
+    "id": "Q777402"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q762446",
-    "title": "list of multi-paradigm programming languages"
+    "title": "list of multi-paradigm programming languages",
+    "id": "Q762446"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q812645",
-    "title": "list of townships of Arkansas"
+    "title": "list of townships of Arkansas",
+    "id": "Q812645"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q819713",
-    "title": "list of German autobahns"
+    "title": "list of German autobahns",
+    "id": "Q819713"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q792334",
-    "title": "list of motorways in Belgium"
+    "title": "list of motorways in Belgium",
+    "id": "Q792334"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q829956",
-    "title": "list of galaxies"
+    "title": "list of galaxies",
+    "id": "Q829956"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q858338",
-    "title": "list of currencies"
+    "title": "list of currencies",
+    "id": "Q858338"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q861564",
-    "title": "list of palaces"
+    "title": "list of palaces",
+    "id": "Q861564"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q897975",
-    "title": "list of Roman tribes"
+    "title": "list of Roman tribes",
+    "id": "Q897975"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q906553",
-    "title": "list of science fiction themes"
+    "title": "list of science fiction themes",
+    "id": "Q906553"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q894842",
-    "title": "list of ambassadors of the United States"
+    "title": "list of ambassadors of the United States",
+    "id": "Q894842"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q898713",
-    "title": "list of Allium species"
+    "title": "list of Allium species",
+    "id": "Q898713"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q936787",
-    "title": "list of waterfalls"
+    "title": "list of waterfalls",
+    "id": "Q936787"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q950055",
-    "title": "list of parishes of Portugal"
+    "title": "list of parishes of Portugal",
+    "id": "Q950055"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q985710",
-    "title": "list of word processors"
+    "title": "list of word processors",
+    "id": "Q985710"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1001394",
-    "title": "list of film festivals"
+    "title": "list of film festivals",
+    "id": "Q1001394"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q845648",
-    "title": "list of lists of people"
+    "title": "list of lists of people",
+    "id": "Q845648"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q863221",
-    "title": "list of fallacies"
+    "title": "list of fallacies",
+    "id": "Q863221"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q987057",
-    "title": "list of Olympic mascots"
+    "title": "list of Olympic mascots",
+    "id": "Q987057"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q988446",
-    "title": "list of synchrotron radiation facilities"
+    "title": "list of synchrotron radiation facilities",
+    "id": "Q988446"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1033564",
-    "title": "list of musical instruments"
+    "title": "list of musical instruments",
+    "id": "Q1033564"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1040119",
-    "title": "list of 3D films"
+    "title": "list of 3D films",
+    "id": "Q1040119"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1053077",
-    "title": "list of mythological places"
+    "title": "list of mythological places",
+    "id": "Q1053077"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1034313",
-    "title": "list of domesticated plants"
+    "title": "list of domesticated plants",
+    "id": "Q1034313"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q939316",
-    "title": "list of ship companies"
+    "title": "list of ship companies",
+    "id": "Q939316"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1076616",
-    "title": "list of Egyptian deities"
+    "title": "list of Egyptian deities",
+    "id": "Q1076616"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1094463",
-    "title": "list of Acer species"
+    "title": "list of Acer species",
+    "id": "Q1094463"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1039777",
-    "title": "list of Manhattan neighborhoods"
+    "title": "list of Manhattan neighborhoods",
+    "id": "Q1039777"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1063748",
-    "title": "list of solar thermal power stations"
+    "title": "list of solar thermal power stations",
+    "id": "Q1063748"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q941143",
-    "title": "list of national parks of Mexico"
+    "title": "list of national parks of Mexico",
+    "id": "Q941143"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q938273",
-    "title": "list of ambassadors from Belgium"
+    "title": "list of ambassadors from Belgium",
+    "id": "Q938273"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1095316",
-    "title": "list of Roman cognomina"
+    "title": "list of Roman cognomina",
+    "id": "Q1095316"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1133778",
-    "title": "list of world expositions"
+    "title": "list of world expositions",
+    "id": "Q1133778"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1062797",
-    "title": "list of legal Latin terms"
+    "title": "list of legal Latin terms",
+    "id": "Q1062797"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1113853",
-    "title": "list of Olympic torch relays"
+    "title": "list of Olympic torch relays",
+    "id": "Q1113853"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1126088",
-    "title": "list of Middle-earth Dwarves"
+    "title": "list of Middle-earth Dwarves",
+    "id": "Q1126088"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1066612",
-    "title": "list of United States federal agencies"
+    "title": "list of United States federal agencies",
+    "id": "Q1066612"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1125331",
-    "title": "list of islands of Japan"
+    "title": "list of islands of Japan",
+    "id": "Q1125331"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1123288",
-    "title": "list of HTTP status codes"
+    "title": "list of HTTP status codes",
+    "id": "Q1123288"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1064785",
-    "title": "list of districts of the House of Representatives of Japan"
+    "title": "list of districts of the House of Representatives of Japan",
+    "id": "Q1064785"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1122645",
-    "title": "list of government agencies in Sweden"
+    "title": "list of government agencies in Sweden",
+    "id": "Q1122645"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1152066",
-    "title": "list of municipalities of Venezuela"
+    "title": "list of municipalities of Venezuela",
+    "id": "Q1152066"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1151047",
-    "title": "list of empires"
+    "title": "list of empires",
+    "id": "Q1151047"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1091779",
-    "title": "list of films with live action and animation"
+    "title": "list of films with live action and animation",
+    "id": "Q1091779"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1075643",
-    "title": "list of lists of biblical names"
+    "title": "list of lists of biblical names",
+    "id": "Q1075643"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1140839",
-    "title": "list of potato cultivars"
+    "title": "list of potato cultivars",
+    "id": "Q1140839"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1186081",
-    "title": "list of aquaria"
+    "title": "list of aquaria",
+    "id": "Q1186081"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1170526",
-    "title": "list of leaning towers"
+    "title": "list of leaning towers",
+    "id": "Q1170526"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1193107",
-    "title": "list of educational programming languages"
+    "title": "list of educational programming languages",
+    "id": "Q1193107"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1211548",
-    "title": "list of agricultural machinery"
+    "title": "list of agricultural machinery",
+    "id": "Q1211548"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q913234",
-    "title": "list of territorial disputes"
+    "title": "list of territorial disputes",
+    "id": "Q913234"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q921015",
-    "title": "list of Intel microprocessors"
+    "title": "list of Intel microprocessors",
+    "id": "Q921015"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q925643",
-    "title": "list of chicken breeds"
+    "title": "list of chicken breeds",
+    "id": "Q925643"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q933340",
-    "title": "list of municipalities of Republika Srpska"
+    "title": "list of municipalities of Republika Srpska",
+    "id": "Q933340"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1268291",
-    "title": "list of obelisks"
+    "title": "list of obelisks",
+    "id": "Q1268291"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1275998",
-    "title": "list of organists"
+    "title": "list of organists",
+    "id": "Q1275998"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1267750",
-    "title": "list of dance personalities"
+    "title": "list of dance personalities",
+    "id": "Q1267750"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1245796",
-    "title": "list of UN Security Council resolutions"
+    "title": "list of UN Security Council resolutions",
+    "id": "Q1245796"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1230420",
-    "title": "list of Roman gentes"
+    "title": "list of Roman gentes",
+    "id": "Q1230420"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1322566",
-    "title": "list of Volkslieds"
+    "title": "list of Volkslieds",
+    "id": "Q1322566"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1301561",
-    "title": "list of domesticated animals"
+    "title": "list of domesticated animals",
+    "id": "Q1301561"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1248962",
-    "title": "list of comarcas of Galicia, Spain"
+    "title": "list of comarcas of Galicia, Spain",
+    "id": "Q1248962"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1243678",
-    "title": "list of Queens neighborhoods"
+    "title": "list of Queens neighborhoods",
+    "id": "Q1243678"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1276694",
-    "title": "list of events named massacres"
+    "title": "list of events named massacres",
+    "id": "Q1276694"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1278294",
-    "title": "list of municipalities of Portugal"
+    "title": "list of municipalities of Portugal",
+    "id": "Q1278294"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1285372",
-    "title": "list of Magic: The Gathering sets"
+    "title": "list of Magic: The Gathering sets",
+    "id": "Q1285372"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1284398",
-    "title": "list of Chinese animated films"
+    "title": "list of Chinese animated films",
+    "id": "Q1284398"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1287686",
-    "title": "list of anarchist organizations"
+    "title": "list of anarchist organizations",
+    "id": "Q1287686"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1328114",
-    "title": "list of municipalities of Sweden"
+    "title": "list of municipalities of Sweden",
+    "id": "Q1328114"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1334983",
-    "title": "list of Roman legions"
+    "title": "list of Roman legions",
+    "id": "Q1334983"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1357585",
-    "title": "list of grape varieties"
+    "title": "list of grape varieties",
+    "id": "Q1357585"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1356889",
-    "title": "list of oil exploration and production companies"
+    "title": "list of oil exploration and production companies",
+    "id": "Q1356889"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1344347",
-    "title": "list of Go terms"
+    "title": "list of Go terms",
+    "id": "Q1344347"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1413181",
-    "title": "list of manned spacecraft"
+    "title": "list of manned spacecraft",
+    "id": "Q1413181"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1401464",
-    "title": "list of Celtic tribes"
+    "title": "list of Celtic tribes",
+    "id": "Q1401464"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1409274",
-    "title": "list of genealogy databases"
+    "title": "list of genealogy databases",
+    "id": "Q1409274"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1390361",
-    "title": "list of music museums"
+    "title": "list of music museums",
+    "id": "Q1390361"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1415407",
-    "title": "list of film periodicals"
+    "title": "list of film periodicals",
+    "id": "Q1415407"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1420799",
-    "title": "list of caves"
+    "title": "list of caves",
+    "id": "Q1420799"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1473382",
-    "title": "list of climbers and mountaineers"
+    "title": "list of climbers and mountaineers",
+    "id": "Q1473382"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1460245",
-    "title": "list of psychologists"
+    "title": "list of psychologists",
+    "id": "Q1460245"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1479343",
-    "title": "list of national parks of Argentina"
+    "title": "list of national parks of Argentina",
+    "id": "Q1479343"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1467586",
-    "title": "list of orbits"
+    "title": "list of orbits",
+    "id": "Q1467586"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1477581",
-    "title": "list of Ghana Parliament constituencies"
+    "title": "list of Ghana Parliament constituencies",
+    "id": "Q1477581"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1501489",
-    "title": "list of goose breeds"
+    "title": "list of goose breeds",
+    "id": "Q1501489"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1553781",
-    "title": "list of jazz standards"
+    "title": "list of jazz standards",
+    "id": "Q1553781"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1544704",
-    "title": "list of Montana state parks"
+    "title": "list of Montana state parks",
+    "id": "Q1544704"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1519908",
-    "title": "list of vodkas"
+    "title": "list of vodkas",
+    "id": "Q1519908"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1530844",
-    "title": "list of missions to the Moon"
+    "title": "list of missions to the Moon",
+    "id": "Q1530844"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1501517",
-    "title": "list of cattle breeds"
+    "title": "list of cattle breeds",
+    "id": "Q1501517"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1529899",
-    "title": "list of major power outages"
+    "title": "list of major power outages",
+    "id": "Q1529899"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1506313",
-    "title": "list of jazz musicians"
+    "title": "list of jazz musicians",
+    "id": "Q1506313"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1511921",
-    "title": "list of Maryland state parks"
+    "title": "list of Maryland state parks",
+    "id": "Q1511921"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1642078",
-    "title": "list of nuclear power stations"
+    "title": "list of nuclear power stations",
+    "id": "Q1642078"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1626761",
-    "title": "list of anti-tank missiles"
+    "title": "list of anti-tank missiles",
+    "id": "Q1626761"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1602606",
-    "title": "list of main roads in Switzerland"
+    "title": "list of main roads in Switzerland",
+    "id": "Q1602606"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1593381",
-    "title": "list of pig breeds"
+    "title": "list of pig breeds",
+    "id": "Q1593381"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1682357",
-    "title": "list of states and territories of the United States"
+    "title": "list of states and territories of the United States",
+    "id": "Q1682357"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1705353",
-    "title": "list of text editors"
+    "title": "list of text editors",
+    "id": "Q1705353"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1654700",
-    "title": "list of bog bodies"
+    "title": "list of bog bodies",
+    "id": "Q1654700"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1687478",
-    "title": "list of oil spills"
+    "title": "list of oil spills",
+    "id": "Q1687478"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1667373",
-    "title": "list of development aid agencies"
+    "title": "list of development aid agencies",
+    "id": "Q1667373"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1703272",
-    "title": "list of gestures"
+    "title": "list of gestures",
+    "id": "Q1703272"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1421724",
-    "title": "list of biblical places"
+    "title": "list of biblical places",
+    "id": "Q1421724"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1421614",
-    "title": "list of partidos of Buenos Aires"
+    "title": "list of partidos of Buenos Aires",
+    "id": "Q1421614"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1431752",
-    "title": "list of bridges in Venice"
+    "title": "list of bridges in Venice",
+    "id": "Q1431752"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1752560",
-    "title": "list of war deities"
+    "title": "list of war deities",
+    "id": "Q1752560"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1752557",
-    "title": "list of horse diseases"
+    "title": "list of horse diseases",
+    "id": "Q1752557"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1748378",
-    "title": "list of districts in Kerala"
+    "title": "list of districts in Kerala",
+    "id": "Q1748378"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1776976",
-    "title": "list of medical journals"
+    "title": "list of medical journals",
+    "id": "Q1776976"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1783703",
-    "title": "list of head bishops of the Georgian Orthodox Church"
+    "title": "list of head bishops of the Georgian Orthodox Church",
+    "id": "Q1783703"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1770135",
-    "title": "list of Christmas dishes"
+    "title": "list of Christmas dishes",
+    "id": "Q1770135"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1759138",
-    "title": "list of trolleybus systems"
+    "title": "list of trolleybus systems",
+    "id": "Q1759138"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1772715",
-    "title": "list of jazz festivals"
+    "title": "list of jazz festivals",
+    "id": "Q1772715"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1813210",
-    "title": "list of offshore wind farms"
+    "title": "list of offshore wind farms",
+    "id": "Q1813210"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1819508",
-    "title": "list of California state parks"
+    "title": "list of California state parks",
+    "id": "Q1819508"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1837601",
-    "title": "list of ambassadors of the German Democratic Republic"
+    "title": "list of ambassadors of the German Democratic Republic",
+    "id": "Q1837601"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1840959",
-    "title": "list of rotorcraft"
+    "title": "list of rotorcraft",
+    "id": "Q1840959"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1846219",
-    "title": "list of types of marble"
+    "title": "list of types of marble",
+    "id": "Q1846219"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1847560",
-    "title": "list of nature parks in Germany"
+    "title": "list of nature parks in Germany",
+    "id": "Q1847560"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1849842",
-    "title": "list of papal elections"
+    "title": "list of papal elections",
+    "id": "Q1849842"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1853312",
-    "title": "list of colleges and universities in France"
+    "title": "list of colleges and universities in France",
+    "id": "Q1853312"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863262",
-    "title": "list of clowns"
+    "title": "list of clowns",
+    "id": "Q1863262"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863530",
-    "title": "list of peninsulas"
+    "title": "list of peninsulas",
+    "id": "Q1863530"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1864275",
-    "title": "list of sandstones"
+    "title": "list of sandstones",
+    "id": "Q1864275"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1879766",
-    "title": "list of animated feature films"
+    "title": "list of animated feature films",
+    "id": "Q1879766"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1972572",
-    "title": "list of ghost towns"
+    "title": "list of ghost towns",
+    "id": "Q1972572"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1864449",
-    "title": "list of string quartet ensembles"
+    "title": "list of string quartet ensembles",
+    "id": "Q1864449"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2005031",
-    "title": "list of Roman amphitheatres"
+    "title": "list of Roman amphitheatres",
+    "id": "Q2005031"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2004558",
-    "title": "list of zombie movies"
+    "title": "list of zombie movies",
+    "id": "Q2004558"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2060548",
-    "title": "list of nuclear weapons"
+    "title": "list of nuclear weapons",
+    "id": "Q2060548"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863664",
-    "title": "list of nuclear weapons tests"
+    "title": "list of nuclear weapons tests",
+    "id": "Q1863664"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863769",
-    "title": "list of marinas"
+    "title": "list of marinas",
+    "id": "Q1863769"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2027366",
-    "title": "list of urban areas in Sweden"
+    "title": "list of urban areas in Sweden",
+    "id": "Q2027366"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863642",
-    "title": "list of Christian hymns"
+    "title": "list of Christian hymns",
+    "id": "Q1863642"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1983533",
-    "title": "list of Lego themes"
+    "title": "list of Lego themes",
+    "id": "Q1983533"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1986462",
-    "title": "list of national parks and protected areas of Iran"
+    "title": "list of national parks and protected areas of Iran",
+    "id": "Q1986462"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1931616",
-    "title": "list of nuclear reactors"
+    "title": "list of nuclear reactors",
+    "id": "Q1931616"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1939235",
-    "title": "list of Pacific typhoon seasons"
+    "title": "list of Pacific typhoon seasons",
+    "id": "Q1939235"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2167901",
-    "title": "list of archipelagos"
+    "title": "list of archipelagos",
+    "id": "Q2167901"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863931",
-    "title": "list of pipe organ builders"
+    "title": "list of pipe organ builders",
+    "id": "Q1863931"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863652",
-    "title": "list of piano makers"
+    "title": "list of piano makers",
+    "id": "Q1863652"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1864692",
-    "title": "list of experimental aircraft"
+    "title": "list of experimental aircraft",
+    "id": "Q1864692"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2131868",
-    "title": "lists of villages in Norway"
+    "title": "lists of villages in Norway",
+    "id": "Q2131868"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1864676",
-    "title": "list of transport museums"
+    "title": "list of transport museums",
+    "id": "Q1864676"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1872094",
-    "title": "list of rowing venues"
+    "title": "list of rowing venues",
+    "id": "Q1872094"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2187749",
-    "title": "lists of capitals"
+    "title": "lists of capitals",
+    "id": "Q2187749"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1864665",
-    "title": "list of multiple-language version films"
+    "title": "list of multiple-language version films",
+    "id": "Q1864665"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863877",
-    "title": "list of ironic awards"
+    "title": "list of ironic awards",
+    "id": "Q1863877"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2213039",
-    "title": "list of role-playing games by name"
+    "title": "list of role-playing games by name",
+    "id": "Q2213039"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2229749",
-    "title": "list of counties in Poland"
+    "title": "list of counties in Poland",
+    "id": "Q2229749"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863910",
-    "title": "list of opera festivals"
+    "title": "list of opera festivals",
+    "id": "Q1863910"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1889337",
-    "title": "list of figure skating jumps"
+    "title": "list of figure skating jumps",
+    "id": "Q1889337"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863882",
-    "title": "list of oboe concertos"
+    "title": "list of oboe concertos",
+    "id": "Q1863882"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863840",
-    "title": "list of music archives"
+    "title": "list of music archives",
+    "id": "Q1863840"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2240937",
-    "title": "list of asanas"
+    "title": "list of asanas",
+    "id": "Q2240937"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2344875",
-    "title": "list of astronomical observatories"
+    "title": "list of astronomical observatories",
+    "id": "Q2344875"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2345962",
-    "title": "list of talkshows"
+    "title": "list of talkshows",
+    "id": "Q2345962"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2305627",
-    "title": "list of Quercus species"
+    "title": "list of Quercus species",
+    "id": "Q2305627"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2197086",
-    "title": "list of rabbit breeds"
+    "title": "list of rabbit breeds",
+    "id": "Q2197086"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2266252",
-    "title": "list of psychology disciplines"
+    "title": "list of psychology disciplines",
+    "id": "Q2266252"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2359788",
-    "title": "list of Oceanids"
+    "title": "list of Oceanids",
+    "id": "Q2359788"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2385275",
-    "title": "list of Unified Modeling Language tools"
+    "title": "list of Unified Modeling Language tools",
+    "id": "Q2385275"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2291417",
-    "title": "list of national parks of Canada"
+    "title": "list of national parks of Canada",
+    "id": "Q2291417"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2296003",
-    "title": "list of computer magazines"
+    "title": "list of computer magazines",
+    "id": "Q2296003"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2073223",
-    "title": "list of IMAX venues"
+    "title": "list of IMAX venues",
+    "id": "Q2073223"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2468826",
-    "title": "list of alcoholic beverages"
+    "title": "list of alcoholic beverages",
+    "id": "Q2468826"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2452343",
-    "title": "list of musical films by year"
+    "title": "list of musical films by year",
+    "id": "Q2452343"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2405131",
-    "title": "list of puzzle games"
+    "title": "list of puzzle games",
+    "id": "Q2405131"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2476620",
-    "title": "list of computer scientists"
+    "title": "list of computer scientists",
+    "id": "Q2476620"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2478941",
-    "title": "list of famines"
+    "title": "list of famines",
+    "id": "Q2478941"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2517815",
-    "title": "list of Shinto shrines"
+    "title": "list of Shinto shrines",
+    "id": "Q2517815"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2570381",
-    "title": "list of historical period drama films and series"
+    "title": "list of historical period drama films and series",
+    "id": "Q2570381"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2582641",
-    "title": "list of Latin-script letters"
+    "title": "list of Latin-script letters",
+    "id": "Q2582641"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2585983",
-    "title": "list of Breaking Bad characters"
+    "title": "list of Breaking Bad characters",
+    "id": "Q2585983"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2620361",
-    "title": "list of Hobbits"
+    "title": "list of Hobbits",
+    "id": "Q2620361"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2604138",
-    "title": "list of space telescopes"
+    "title": "list of space telescopes",
+    "id": "Q2604138"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2624616",
-    "title": "list of tartans"
+    "title": "list of tartans",
+    "id": "Q2624616"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2607828",
-    "title": "list of cognitive biases"
+    "title": "list of cognitive biases",
+    "id": "Q2607828"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2601516",
-    "title": "list of diplomatic missions of El Salvador"
+    "title": "list of diplomatic missions of El Salvador",
+    "id": "Q2601516"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2631145",
-    "title": "list of dialects of English"
+    "title": "list of dialects of English",
+    "id": "Q2631145"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2635363",
-    "title": "list of chairs"
+    "title": "list of chairs",
+    "id": "Q2635363"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2531060",
-    "title": "list of noble families in Belgium"
+    "title": "list of noble families in Belgium",
+    "id": "Q2531060"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2667357",
-    "title": "list of Eucalyptus species"
+    "title": "list of Eucalyptus species",
+    "id": "Q2667357"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2670549",
-    "title": "list of National Monuments of the United States"
+    "title": "list of National Monuments of the United States",
+    "id": "Q2670549"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2668203",
-    "title": "list of fertility deities"
+    "title": "list of fertility deities",
+    "id": "Q2668203"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2639049",
-    "title": "list of Hufflepuf students"
+    "title": "list of Hufflepuf students",
+    "id": "Q2639049"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2698862",
-    "title": "list of characters in The Legend of Zelda series"
+    "title": "list of characters in The Legend of Zelda series",
+    "id": "Q2698862"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2746918",
-    "title": "list of Slavic mythological figures"
+    "title": "list of Slavic mythological figures",
+    "id": "Q2746918"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2828314",
-    "title": "List of protected areas of Quebec"
+    "title": "List of protected areas of Quebec",
+    "id": "Q2828314"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2899571",
-    "title": "list of FIFA World Cup finals"
+    "title": "list of FIFA World Cup finals",
+    "id": "Q2899571"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2967170",
-    "title": "list of fires"
+    "title": "list of fires",
+    "id": "Q2967170"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q2976857",
-    "title": "list of CubeSats"
+    "title": "list of CubeSats",
+    "id": "Q2976857"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1862851",
-    "title": "list of Roman bridges"
+    "title": "list of Roman bridges",
+    "id": "Q1862851"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1862724",
-    "title": "list of natural history museums"
+    "title": "list of natural history museums",
+    "id": "Q1862724"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863576",
-    "title": "list of infantry divisions"
+    "title": "list of infantry divisions",
+    "id": "Q1863576"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863197",
-    "title": "list of pear cultivars"
+    "title": "list of pear cultivars",
+    "id": "Q1863197"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1862824",
-    "title": "list of open-source video games"
+    "title": "list of open-source video games",
+    "id": "Q1862824"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863211",
-    "title": "list of bridge failures"
+    "title": "list of bridge failures",
+    "id": "Q1863211"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1862207",
-    "title": "list of French Ambassadors to the Ottoman Empire"
+    "title": "list of French Ambassadors to the Ottoman Empire",
+    "id": "Q1862207"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1862546",
-    "title": "list of noble families of Croatia"
+    "title": "list of noble families of Croatia",
+    "id": "Q1862546"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q1863383",
-    "title": "list of ice hockey leagues"
+    "title": "list of ice hockey leagues",
+    "id": "Q1863383"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3086597",
-    "title": "list of effects"
+    "title": "list of effects",
+    "id": "Q3086597"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3082644",
-    "title": "list of bomber aircraft"
+    "title": "list of bomber aircraft",
+    "id": "Q3082644"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3032304",
-    "title": "list of Aztec deities"
+    "title": "list of Aztec deities",
+    "id": "Q3032304"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3041655",
-    "title": "list of countries' copyright length"
+    "title": "list of countries' copyright length",
+    "id": "Q3041655"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3070114",
-    "title": "list of comedians"
+    "title": "list of comedians",
+    "id": "Q3070114"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3083928",
-    "title": "list of statisticians"
+    "title": "list of statisticians",
+    "id": "Q3083928"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3032141",
-    "title": "list of districts of Portugal"
+    "title": "list of districts of Portugal",
+    "id": "Q3032141"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3051172",
-    "title": "list of characters in the Metal Gear series"
+    "title": "list of characters in the Metal Gear series",
+    "id": "Q3051172"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3196197",
-    "title": "list of professions"
+    "title": "list of professions",
+    "id": "Q3196197"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3181248",
-    "title": "list of headgear"
+    "title": "list of headgear",
+    "id": "Q3181248"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3242790",
-    "title": "list of role-playing video games"
+    "title": "list of role-playing video games",
+    "id": "Q3242790"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3243668",
-    "title": "list of double acts"
+    "title": "list of double acts",
+    "id": "Q3243668"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3243713",
-    "title": "list of disaster films"
+    "title": "list of disaster films",
+    "id": "Q3243713"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3238606",
-    "title": "list of comic books"
+    "title": "list of comic books",
+    "id": "Q3238606"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3244330",
-    "title": "list of ocean liners"
+    "title": "list of ocean liners",
+    "id": "Q3244330"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3244516",
-    "title": "list of runestones"
+    "title": "list of runestones",
+    "id": "Q3244516"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3243996",
-    "title": "list of geographers"
+    "title": "list of geographers",
+    "id": "Q3243996"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3243928",
-    "title": "list of fairy and sprite characters"
+    "title": "list of fairy and sprite characters",
+    "id": "Q3243928"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3244225",
-    "title": "list of potato dishes"
+    "title": "list of potato dishes",
+    "id": "Q3244225"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3244242",
-    "title": "list of missiles"
+    "title": "list of missiles",
+    "id": "Q3244242"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3243905",
-    "title": "list of physics equations"
+    "title": "list of physics equations",
+    "id": "Q3243905"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3244979",
-    "title": "list of pastries"
+    "title": "list of pastries",
+    "id": "Q3244979"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3245076",
-    "title": "list of sandwiches"
+    "title": "list of sandwiches",
+    "id": "Q3245076"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3245432",
-    "title": "list of national memorials of the United States"
+    "title": "list of national memorials of the United States",
+    "id": "Q3245432"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3243666",
-    "title": "list of musical duos"
+    "title": "list of musical duos",
+    "id": "Q3243666"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3245023",
-    "title": "list of scientific journals"
+    "title": "list of scientific journals",
+    "id": "Q3245023"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3245753",
-    "title": "list of Ambassadors from Serbia"
+    "title": "list of Ambassadors from Serbia",
+    "id": "Q3245753"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3248486",
-    "title": "list of comuni of Italy"
+    "title": "list of comuni of Italy",
+    "id": "Q3248486"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3243348",
-    "title": "list of fictional ships"
+    "title": "list of fictional ships",
+    "id": "Q3243348"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3243129",
-    "title": "list of mythological objects"
+    "title": "list of mythological objects",
+    "id": "Q3243129"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3243679",
-    "title": "list of musical instrument manufacturing companies"
+    "title": "list of musical instrument manufacturing companies",
+    "id": "Q3243679"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3218241",
-    "title": "list of opera houses"
+    "title": "list of opera houses",
+    "id": "Q3218241"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3236042",
-    "title": "list of passports"
+    "title": "list of passports",
+    "id": "Q3236042"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3215622",
-    "title": "list of United Kingdom general elections"
+    "title": "list of United Kingdom general elections",
+    "id": "Q3215622"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3111903",
-    "title": "list of Microsoft Windows components"
+    "title": "list of Microsoft Windows components",
+    "id": "Q3111903"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3134052",
-    "title": "list of municipalities in Newfoundland and Labrador"
+    "title": "list of municipalities in Newfoundland and Labrador",
+    "id": "Q3134052"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3142139",
-    "title": "list of bicycle parts"
+    "title": "list of bicycle parts",
+    "id": "Q3142139"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3252511",
-    "title": "list of motte-and-bailey castles"
+    "title": "list of motte-and-bailey castles",
+    "id": "Q3252511"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3251364",
-    "title": "list of cat diseases"
+    "title": "list of cat diseases",
+    "id": "Q3251364"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3250983",
-    "title": "list of cannabis strains"
+    "title": "list of cannabis strains",
+    "id": "Q3250983"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3252800",
-    "title": "list of professional architecture organizations"
+    "title": "list of professional architecture organizations",
+    "id": "Q3252800"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3253247",
-    "title": "list of advertising agencies"
+    "title": "list of advertising agencies",
+    "id": "Q3253247"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3252881",
-    "title": "list of water parks"
+    "title": "list of water parks",
+    "id": "Q3252881"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3253986",
-    "title": "list of French cattle breeds"
+    "title": "list of French cattle breeds",
+    "id": "Q3253986"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3253968",
-    "title": "list of physics journals"
+    "title": "list of physics journals",
+    "id": "Q3253968"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3271043",
-    "title": "list of English-language hymnals by denomination"
+    "title": "list of English-language hymnals by denomination",
+    "id": "Q3271043"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3302786",
-    "title": "list of postal entities"
+    "title": "list of postal entities",
+    "id": "Q3302786"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3268096",
-    "title": "list of ska bands and musicians"
+    "title": "list of ska bands and musicians",
+    "id": "Q3268096"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3281331",
-    "title": "list of feeding behaviours"
+    "title": "list of feeding behaviours",
+    "id": "Q3281331"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3277033",
-    "title": "list of lists of people by nationality"
+    "title": "list of lists of people by nationality",
+    "id": "Q3277033"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3247826",
-    "title": "list of fictional felines"
+    "title": "list of fictional felines",
+    "id": "Q3247826"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3393655",
-    "title": "list of mosques"
+    "title": "list of mosques",
+    "id": "Q3393655"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3248569",
-    "title": "list of philosophical concepts"
+    "title": "list of philosophical concepts",
+    "id": "Q3248569"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3248209",
-    "title": "list of fictional pigs"
+    "title": "list of fictional pigs",
+    "id": "Q3248209"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3247681",
-    "title": "list of governorates of Saudi Arabia"
+    "title": "list of governorates of Saudi Arabia",
+    "id": "Q3247681"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3475546",
-    "title": "List of United States cities by population"
+    "title": "List of United States cities by population",
+    "id": "Q3475546"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3425648",
-    "title": "list of big bands"
+    "title": "list of big bands",
+    "id": "Q3425648"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3446184",
-    "title": "list of monarchies"
+    "title": "list of monarchies",
+    "id": "Q3446184"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3531616",
-    "title": "list of waste types"
+    "title": "list of waste types",
+    "id": "Q3531616"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3550262",
-    "title": "list of cities in the Philippines"
+    "title": "list of cities in the Philippines",
+    "id": "Q3550262"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3543149",
-    "title": "list of hypothetical Solar System objects"
+    "title": "list of hypothetical Solar System objects",
+    "id": "Q3543149"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3531569",
-    "title": "list of Mesoamerican pyramids"
+    "title": "list of Mesoamerican pyramids",
+    "id": "Q3531569"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3634986",
-    "title": "list of numeral systems"
+    "title": "list of numeral systems",
+    "id": "Q3634986"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3633281",
-    "title": "list of Acts of the Parliament of India"
+    "title": "list of Acts of the Parliament of India",
+    "id": "Q3633281"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3622149",
-    "title": "list of indoor arenas"
+    "title": "list of indoor arenas",
+    "id": "Q3622149"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3667901",
-    "title": "list of malacologists"
+    "title": "list of malacologists",
+    "id": "Q3667901"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3805709",
-    "title": "list of countries in the Eurovision Song Contest"
+    "title": "list of countries in the Eurovision Song Contest",
+    "id": "Q3805709"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3735606",
-    "title": "list of Swedish noble families"
+    "title": "list of Swedish noble families",
+    "id": "Q3735606"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3777623",
-    "title": "list of Italian PDO cheeses"
+    "title": "list of Italian PDO cheeses",
+    "id": "Q3777623"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3826558",
-    "title": "list of liturgical books"
+    "title": "list of liturgical books",
+    "id": "Q3826558"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3834077",
-    "title": "list of mango cultivars"
+    "title": "list of mango cultivars",
+    "id": "Q3834077"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3834711",
-    "title": "list of Romanian given names"
+    "title": "list of Romanian given names",
+    "id": "Q3834711"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3400552",
-    "title": "list of towns in Portugal"
+    "title": "list of towns in Portugal",
+    "id": "Q3400552"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3383781",
-    "title": "list of Ukrainian oblasts and territories by area"
+    "title": "list of Ukrainian oblasts and territories by area",
+    "id": "Q3383781"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3391224",
-    "title": "list of cosmic microwave background experiments"
+    "title": "list of cosmic microwave background experiments",
+    "id": "Q3391224"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3480265",
-    "title": "list of Case Closed characters"
+    "title": "list of Case Closed characters",
+    "id": "Q3480265"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q835475",
-    "title": "lists of Jews"
+    "title": "lists of Jews",
+    "id": "Q835475"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q839561",
-    "title": "list of HTML editors"
+    "title": "list of HTML editors",
+    "id": "Q839561"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q836353",
-    "title": "list of language regulators"
+    "title": "list of language regulators",
+    "id": "Q836353"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q838271",
-    "title": "list of communes of Luxembourg"
+    "title": "list of communes of Luxembourg",
+    "id": "Q838271"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q839478",
-    "title": "list of UNIX commands"
+    "title": "list of UNIX commands",
+    "id": "Q839478"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q834270",
-    "title": "list of fictional rabbits and hares"
+    "title": "list of fictional rabbits and hares",
+    "id": "Q834270"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q837856",
-    "title": "list of regional parks of Italy"
+    "title": "list of regional parks of Italy",
+    "id": "Q837856"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q844532",
-    "title": "list of donkey breeds"
+    "title": "list of donkey breeds",
+    "id": "Q844532"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q842969",
-    "title": "list of Go tournaments"
+    "title": "list of Go tournaments",
+    "id": "Q842969"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3244996",
-    "title": "list of financial districts"
+    "title": "list of financial districts",
+    "id": "Q3244996"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3245241",
-    "title": "list of Holocaust survivors"
+    "title": "list of Holocaust survivors",
+    "id": "Q3245241"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3906375",
-    "title": "list of soups"
+    "title": "list of soups",
+    "id": "Q3906375"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3892101",
-    "title": "list of sports rivalries"
+    "title": "list of sports rivalries",
+    "id": "Q3892101"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q3966312",
-    "title": "list of Lilium species"
+    "title": "list of Lilium species",
+    "id": "Q3966312"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4110783",
-    "title": "list of Rhododendron species"
+    "title": "list of Rhododendron species",
+    "id": "Q4110783"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4120404",
-    "title": "list of photovoltaic power stations"
+    "title": "list of photovoltaic power stations",
+    "id": "Q4120404"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4110728",
-    "title": "list of Astragalus species"
+    "title": "list of Astragalus species",
+    "id": "Q4110728"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4281934",
-    "title": "list of cigarette brands"
+    "title": "list of cigarette brands",
+    "id": "Q4281934"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4350159",
-    "title": "list of weight training exercises"
+    "title": "list of weight training exercises",
+    "id": "Q4350159"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4353803",
-    "title": "list of regions of Vietnam"
+    "title": "list of regions of Vietnam",
+    "id": "Q4353803"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4389750",
-    "title": "list of fashion magazines"
+    "title": "list of fashion magazines",
+    "id": "Q4389750"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4405220",
-    "title": "list of wars of independence"
+    "title": "list of wars of independence",
+    "id": "Q4405220"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4433567",
-    "title": "list of dynasties"
+    "title": "list of dynasties",
+    "id": "Q4433567"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4433389",
-    "title": "list of cities and towns in Tolkien's legendarium"
+    "title": "list of cities and towns in Tolkien's legendarium",
+    "id": "Q4433389"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4432653",
-    "title": "list of Korean dishes"
+    "title": "list of Korean dishes",
+    "id": "Q4432653"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4435332",
-    "title": "UNESCO Intangible Cultural Heritage Lists"
+    "title": "UNESCO Intangible Cultural Heritage Lists",
+    "id": "Q4435332"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4435301",
-    "title": "list of national parks of Australia"
+    "title": "list of national parks of Australia",
+    "id": "Q4435301"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4436931",
-    "title": "list of streaming media systems"
+    "title": "list of streaming media systems",
+    "id": "Q4436931"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4816436",
-    "title": "list of drama films"
+    "title": "list of drama films",
+    "id": "Q4816436"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4818345",
-    "title": "list of historical unrecognized state"
+    "title": "list of historical unrecognized state",
+    "id": "Q4818345"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4598125",
-    "title": "list of fast food restaurant chains"
+    "title": "list of fast food restaurant chains",
+    "id": "Q4598125"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4788791",
-    "title": "list of national independence days"
+    "title": "list of national independence days",
+    "id": "Q4788791"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4819880",
-    "title": "list of Audio programming languages"
+    "title": "list of Audio programming languages",
+    "id": "Q4819880"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4765046",
-    "title": "list of animals in film and television"
+    "title": "list of animals in film and television",
+    "id": "Q4765046"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q4741765",
-    "title": "list of cities in Oregon"
+    "title": "list of cities in Oregon",
+    "id": "Q4741765"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q5147657",
-    "title": "lists of television channels"
+    "title": "lists of television channels",
+    "id": "Q5147657"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q5369789",
-    "title": "list of Mexican ambassadors to the United States"
+    "title": "list of Mexican ambassadors to the United States",
+    "id": "Q5369789"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q5337632",
-    "title": "list of musical instruments by Hornbostel–Sachs number: 421"
+    "title": "list of musical instruments by Hornbostel–Sachs number: 421",
+    "id": "Q5337632"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q5408678",
-    "title": "list of national parks of the United States"
+    "title": "list of national parks of the United States",
+    "id": "Q5408678"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q5267198",
-    "title": "list of areas in the United States National Park System"
+    "title": "list of areas in the United States National Park System",
+    "id": "Q5267198"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q5803752",
-    "title": "list of municipalities of Norway"
+    "title": "list of municipalities of Norway",
+    "id": "Q5803752"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q5830365",
-    "title": "list of Uruguayan ambassadors"
+    "title": "list of Uruguayan ambassadors",
+    "id": "Q5830365"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q5717502",
-    "title": "list of UEFA European Championship official match balls"
+    "title": "list of UEFA European Championship official match balls",
+    "id": "Q5717502"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q5934917",
-    "title": "list of Korean family names"
+    "title": "list of Korean family names",
+    "id": "Q5934917"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6271557",
-    "title": "list of mining companies"
+    "title": "list of mining companies",
+    "id": "Q6271557"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6355936",
-    "title": "list of liturgical objects"
+    "title": "list of liturgical objects",
+    "id": "Q6355936"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6350272",
-    "title": "list of Inga species"
+    "title": "list of Inga species",
+    "id": "Q6350272"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6560095",
-    "title": "list of 2D animation software"
+    "title": "list of 2D animation software",
+    "id": "Q6560095"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6564374",
-    "title": "list of Book of Mormon people"
+    "title": "list of Book of Mormon people",
+    "id": "Q6564374"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6561788",
-    "title": "list of Apache modules"
+    "title": "list of Apache modules",
+    "id": "Q6561788"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6569600",
-    "title": "list of EN standards"
+    "title": "list of EN standards",
+    "id": "Q6569600"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6567527",
-    "title": "list of Colombian municipalities by population"
+    "title": "list of Colombian municipalities by population",
+    "id": "Q6567527"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6571243",
-    "title": "list of French dictionaries"
+    "title": "list of French dictionaries",
+    "id": "Q6571243"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6571523",
-    "title": "list of G-20 summits"
+    "title": "list of G-20 summits",
+    "id": "Q6571523"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6567211",
-    "title": "list of Christian record labels"
+    "title": "list of Christian record labels",
+    "id": "Q6567211"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6569498",
-    "title": "list of Dutch family names"
+    "title": "list of Dutch family names",
+    "id": "Q6569498"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6574218",
-    "title": "list of Indonesian ambassadors"
+    "title": "list of Indonesian ambassadors",
+    "id": "Q6574218"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6590092",
-    "title": "list of Mexican municipalities"
+    "title": "list of Mexican municipalities",
+    "id": "Q6590092"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6585901",
-    "title": "list of ghosts"
+    "title": "list of ghosts",
+    "id": "Q6585901"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6585617",
-    "title": "list of transforms"
+    "title": "list of transforms",
+    "id": "Q6585617"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6591257",
-    "title": "list of Nakshatras"
+    "title": "list of Nakshatras",
+    "id": "Q6591257"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6593913",
-    "title": "list of Perth suburbs"
+    "title": "list of Perth suburbs",
+    "id": "Q6593913"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6590840",
-    "title": "list of Muffler Men"
+    "title": "list of Muffler Men",
+    "id": "Q6590840"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6591661",
-    "title": "list of Nebraska townships"
+    "title": "list of Nebraska townships",
+    "id": "Q6591661"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6597783",
-    "title": "list of Spanish dishes"
+    "title": "list of Spanish dishes",
+    "id": "Q6597783"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6595840",
-    "title": "list of Roman Catholic seminaries"
+    "title": "list of Roman Catholic seminaries",
+    "id": "Q6595840"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6596799",
-    "title": "list of Seventh-day Adventist secondary schools"
+    "title": "list of Seventh-day Adventist secondary schools",
+    "id": "Q6596799"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6598833",
-    "title": "list of Swedish ministries"
+    "title": "list of Swedish ministries",
+    "id": "Q6598833"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6603572",
-    "title": "list of Vietnamese dishes"
+    "title": "list of Vietnamese dishes",
+    "id": "Q6603572"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6603653",
-    "title": "list of WAKO Amateur European Championships"
+    "title": "list of WAKO Amateur European Championships",
+    "id": "Q6603653"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6605168",
-    "title": "list of aircraft shootdowns"
+    "title": "list of aircraft shootdowns",
+    "id": "Q6605168"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6606113",
-    "title": "list of architectural vaults"
+    "title": "list of architectural vaults",
+    "id": "Q6606113"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6605814",
-    "title": "list of ancient Egyptian palettes"
+    "title": "list of ancient Egyptian palettes",
+    "id": "Q6605814"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6605867",
-    "title": "list of animal sanctuaries"
+    "title": "list of animal sanctuaries",
+    "id": "Q6605867"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6606355",
-    "title": "list of attack aircraft"
+    "title": "list of attack aircraft",
+    "id": "Q6606355"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6605560",
-    "title": "list of all-female bands"
+    "title": "list of all-female bands",
+    "id": "Q6605560"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6606993",
-    "title": "list of awards in theatre"
+    "title": "list of awards in theatre",
+    "id": "Q6606993"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6605178",
-    "title": "list of airliner shootdown incidents"
+    "title": "list of airliner shootdown incidents",
+    "id": "Q6605178"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6606157",
-    "title": "list of art magazines"
+    "title": "list of art magazines",
+    "id": "Q6606157"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6605989",
-    "title": "list of animation shorts"
+    "title": "list of animation shorts",
+    "id": "Q6605989"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6604586",
-    "title": "list of YouTubers"
+    "title": "list of YouTubers",
+    "id": "Q6604586"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6607398",
-    "title": "list of beaches"
+    "title": "list of beaches",
+    "id": "Q6607398"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6609399",
-    "title": "list of chief executive officers"
+    "title": "list of chief executive officers",
+    "id": "Q6609399"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6610141",
-    "title": "list of classical piano duos"
+    "title": "list of classical piano duos",
+    "id": "Q6610141"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6609420",
-    "title": "list of choral symphonies"
+    "title": "list of choral symphonies",
+    "id": "Q6609420"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6605705",
-    "title": "list of ambassadors to Colombia"
+    "title": "list of ambassadors to Colombia",
+    "id": "Q6605705"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6605710",
-    "title": "list of ambassadors to Germany"
+    "title": "list of ambassadors to Germany",
+    "id": "Q6605710"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6605712",
-    "title": "list of ambassadors to Iceland"
+    "title": "list of ambassadors to Iceland",
+    "id": "Q6605712"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6613447",
-    "title": "list of consumer organizations"
+    "title": "list of consumer organizations",
+    "id": "Q6613447"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6613546",
-    "title": "list of convenience stores"
+    "title": "list of convenience stores",
+    "id": "Q6613546"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6615201",
-    "title": "list of current ambassadors of Poland"
+    "title": "list of current ambassadors of Poland",
+    "id": "Q6615201"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6614871",
-    "title": "list of cult films"
+    "title": "list of cult films",
+    "id": "Q6614871"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6615204",
-    "title": "list of women's colleges"
+    "title": "list of women's colleges",
+    "id": "Q6615204"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6617154",
-    "title": "list of dog trainers"
+    "title": "list of dog trainers",
+    "id": "Q6617154"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6616926",
-    "title": "list of disk partitioning software"
+    "title": "list of disk partitioning software",
+    "id": "Q6616926"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6619839",
-    "title": "list of film archives"
+    "title": "list of film archives",
+    "id": "Q6619839"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6619609",
-    "title": "list of fictional books"
+    "title": "list of fictional books",
+    "id": "Q6619609"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6618717",
-    "title": "list of elections in the United States"
+    "title": "list of elections in the United States",
+    "id": "Q6618717"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6619035",
-    "title": "list of essential oils"
+    "title": "list of essential oils",
+    "id": "Q6619035"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6619824",
-    "title": "list of figure skating competitions"
+    "title": "list of figure skating competitions",
+    "id": "Q6619824"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6620574",
-    "title": "list of food contamination incidents"
+    "title": "list of food contamination incidents",
+    "id": "Q6620574"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6621649",
-    "title": "list of geothermal power stations"
+    "title": "list of geothermal power stations",
+    "id": "Q6621649"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6621534",
-    "title": "list of gay men's choruses"
+    "title": "list of gay men's choruses",
+    "id": "Q6621534"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6619592",
-    "title": "list of fictional angels"
+    "title": "list of fictional angels",
+    "id": "Q6619592"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6619742",
-    "title": "list of fictional prisons"
+    "title": "list of fictional prisons",
+    "id": "Q6619742"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6619716",
-    "title": "list of fictional musical works"
+    "title": "list of fictional musical works",
+    "id": "Q6619716"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6621917",
-    "title": "list of greatest hits albums"
+    "title": "list of greatest hits albums",
+    "id": "Q6621917"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6623388",
-    "title": "list of hobbies"
+    "title": "list of hobbies",
+    "id": "Q6623388"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6623356",
-    "title": "list of historical novels"
+    "title": "list of historical novels",
+    "id": "Q6623356"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6621896",
-    "title": "list of grain elevators"
+    "title": "list of grain elevators",
+    "id": "Q6621896"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6623351",
-    "title": "list of historical harbour cranes"
+    "title": "list of historical harbour cranes",
+    "id": "Q6623351"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6624327",
-    "title": "list of international schools"
+    "title": "list of international schools",
+    "id": "Q6624327"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6624892",
-    "title": "list of land-grant universities"
+    "title": "list of land-grant universities",
+    "id": "Q6624892"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6623804",
-    "title": "list of human rights articles by country"
+    "title": "list of human rights articles by country",
+    "id": "Q6623804"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6624282",
-    "title": "list of international declarations"
+    "title": "list of international declarations",
+    "id": "Q6624282"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6623840",
-    "title": "list of hyperboloid structures"
+    "title": "list of hyperboloid structures",
+    "id": "Q6623840"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6608131",
-    "title": "list of brachiopod genera"
+    "title": "list of brachiopod genera",
+    "id": "Q6608131"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6608318",
-    "title": "list of building materials"
+    "title": "list of building materials",
+    "id": "Q6608318"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6626605",
-    "title": "list of lists of monarchs"
+    "title": "list of lists of monarchs",
+    "id": "Q6626605"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6607991",
-    "title": "list of boarding schools"
+    "title": "list of boarding schools",
+    "id": "Q6607991"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6627219",
-    "title": "list of mass car bombings"
+    "title": "list of mass car bombings",
+    "id": "Q6627219"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6628247",
-    "title": "list of members of the Rajya Sabha"
+    "title": "list of members of the Rajya Sabha",
+    "id": "Q6628247"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6628649",
-    "title": "list of miniature wargames"
+    "title": "list of miniature wargames",
+    "id": "Q6628649"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6607250",
-    "title": "list of baronies of Ireland"
+    "title": "list of baronies of Ireland",
+    "id": "Q6607250"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6607983",
-    "title": "list of blue plaques"
+    "title": "list of blue plaques",
+    "id": "Q6607983"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6608850",
-    "title": "list of carrier-based aircraft"
+    "title": "list of carrier-based aircraft",
+    "id": "Q6608850"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6607437",
-    "title": "list of beer styles"
+    "title": "list of beer styles",
+    "id": "Q6607437"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6608316",
-    "title": "list of build automation software"
+    "title": "list of build automation software",
+    "id": "Q6608316"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6607989",
-    "title": "list of board wargames"
+    "title": "list of board wargames",
+    "id": "Q6607989"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6629685",
-    "title": "list of municipalities of Brazil"
+    "title": "list of municipalities of Brazil",
+    "id": "Q6629685"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6630292",
-    "title": "list of nature deities"
+    "title": "list of nature deities",
+    "id": "Q6630292"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6633415",
-    "title": "list of piano concertos by key"
+    "title": "list of piano concertos by key",
+    "id": "Q6633415"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6633341",
-    "title": "list of pharmacies"
+    "title": "list of pharmacies",
+    "id": "Q6633341"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6631529",
-    "title": "list of numerical analysis software"
+    "title": "list of numerical analysis software",
+    "id": "Q6631529"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6634140",
-    "title": "list of political families"
+    "title": "list of political families",
+    "id": "Q6634140"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6634083",
-    "title": "list of poetry collections"
+    "title": "list of poetry collections",
+    "id": "Q6634083"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6634100",
-    "title": "list of police districts in Norway"
+    "title": "list of police districts in Norway",
+    "id": "Q6634100"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6634081",
-    "title": "list of poetry anthologies"
+    "title": "list of poetry anthologies",
+    "id": "Q6634081"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6629776",
-    "title": "list of museums in Finland"
+    "title": "list of museums in Finland",
+    "id": "Q6629776"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6636161",
-    "title": "list of lists of record labels"
+    "title": "list of lists of record labels",
+    "id": "Q6636161"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6639631",
-    "title": "list of smart cards"
+    "title": "list of smart cards",
+    "id": "Q6639631"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6639688",
-    "title": "list of social movements"
+    "title": "list of social movements",
+    "id": "Q6639688"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6640493",
-    "title": "list of star forts"
+    "title": "list of star forts",
+    "id": "Q6640493"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6639699",
-    "title": "list of social software"
+    "title": "list of social software",
+    "id": "Q6639699"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6640324",
-    "title": "list of speeches"
+    "title": "list of speeches",
+    "id": "Q6640324"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6639720",
-    "title": "list of software package management systems"
+    "title": "list of software package management systems",
+    "id": "Q6639720"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6641431",
-    "title": "list of stationery topics"
+    "title": "list of stationery topics",
+    "id": "Q6641431"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6642029",
-    "title": "list of symbols"
+    "title": "list of symbols",
+    "id": "Q6642029"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6643354",
-    "title": "list of time capsules"
+    "title": "list of time capsules",
+    "id": "Q6643354"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6637929",
-    "title": "list of schools of veterinary medicine"
+    "title": "list of schools of veterinary medicine",
+    "id": "Q6637929"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6640164",
-    "title": "list of songwriting teams"
+    "title": "list of songwriting teams",
+    "id": "Q6640164"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6641485",
-    "title": "list of stone circles"
+    "title": "list of stone circles",
+    "id": "Q6641485"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6641527",
-    "title": "list of street foods"
+    "title": "list of street foods",
+    "id": "Q6641527"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6642588",
-    "title": "list of television presenters"
+    "title": "list of television presenters",
+    "id": "Q6642588"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6643998",
-    "title": "list of tribute albums"
+    "title": "list of tribute albums",
+    "id": "Q6643998"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6644171",
-    "title": "list of types of limestone"
+    "title": "list of types of limestone",
+    "id": "Q6644171"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6643838",
-    "title": "list of townships in Pennsylvania"
+    "title": "list of townships in Pennsylvania",
+    "id": "Q6643838"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6644855",
-    "title": "list of voids"
+    "title": "list of voids",
+    "id": "Q6644855"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6644600",
-    "title": "list of veterans' organizations"
+    "title": "list of veterans' organizations",
+    "id": "Q6644600"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6645092",
-    "title": "list of waterfalls that empty into an ocean"
+    "title": "list of waterfalls that empty into an ocean",
+    "id": "Q6645092"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6644531",
-    "title": "list of electronic tubes"
+    "title": "list of electronic tubes",
+    "id": "Q6644531"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6646657",
-    "title": "lists of Celts"
+    "title": "lists of Celts",
+    "id": "Q6646657"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6646908",
-    "title": "lists of bookstores"
+    "title": "lists of bookstores",
+    "id": "Q6646908"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6645485",
-    "title": "list of women's organizations"
+    "title": "list of women's organizations",
+    "id": "Q6645485"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6646961",
-    "title": "lists of country codes"
+    "title": "lists of country codes",
+    "id": "Q6646961"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6646294",
-    "title": "list of listed buildings in the United Kingdom"
+    "title": "list of listed buildings in the United Kingdom",
+    "id": "Q6646294"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6644498",
-    "title": "list of uranium projects"
+    "title": "list of uranium projects",
+    "id": "Q6644498"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6644649",
-    "title": "list of video game magazines"
+    "title": "list of video game magazines",
+    "id": "Q6644649"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6647160",
-    "title": "list of lists of people by occupation"
+    "title": "list of lists of people by occupation",
+    "id": "Q6647160"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6643829",
-    "title": "list of townships in New Jersey"
+    "title": "list of townships in New Jersey",
+    "id": "Q6643829"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6643334",
-    "title": "list of thriller films"
+    "title": "list of thriller films",
+    "id": "Q6643334"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6643348",
-    "title": "list of tidal barrages"
+    "title": "list of tidal barrages",
+    "id": "Q6643348"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6643264",
-    "title": "list of thin shell structures"
+    "title": "list of thin shell structures",
+    "id": "Q6643264"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6643360",
-    "title": "list of timelines in fiction"
+    "title": "list of timelines in fiction",
+    "id": "Q6643360"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6637167",
-    "title": "list of run-of-the-river hydroelectric power stations"
+    "title": "list of run-of-the-river hydroelectric power stations",
+    "id": "Q6637167"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6636961",
-    "title": "list of router or firewall distributions"
+    "title": "list of router or firewall distributions",
+    "id": "Q6636961"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6636772",
-    "title": "list of road-related terminology"
+    "title": "list of road-related terminology",
+    "id": "Q6636772"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6636008",
-    "title": "list of railway roundhouses"
+    "title": "list of railway roundhouses",
+    "id": "Q6636008"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6636574",
-    "title": "list of rice dishes"
+    "title": "list of rice dishes",
+    "id": "Q6636574"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q6636124",
-    "title": "list of raw fish dishes"
+    "title": "list of raw fish dishes",
+    "id": "Q6636124"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q7432731",
-    "title": "list of fictional magic schools"
+    "title": "list of fictional magic schools",
+    "id": "Q7432731"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q7448465",
-    "title": "list of cities in Malaysia"
+    "title": "list of cities in Malaysia",
+    "id": "Q7448465"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q7882783",
-    "title": "list of karst springs"
+    "title": "list of karst springs",
+    "id": "Q7882783"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q7888248",
-    "title": "list of legal terms"
+    "title": "list of legal terms",
+    "id": "Q7888248"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q8803453",
-    "title": "lists of deaths by year"
+    "title": "lists of deaths by year",
+    "id": "Q8803453"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q8408256",
-    "title": "list of FIFA World Cup official match balls"
+    "title": "list of FIFA World Cup official match balls",
+    "id": "Q8408256"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q8459739",
-    "title": "list of Discworld characters"
+    "title": "list of Discworld characters",
+    "id": "Q8459739"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q9149676",
-    "title": "list of ambassadors of France"
+    "title": "list of ambassadors of France",
+    "id": "Q9149676"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q9149737",
-    "title": "list of Russian ambassadors"
+    "title": "list of Russian ambassadors",
+    "id": "Q9149737"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q9149640",
-    "title": "lists of ambassadors of Austria"
+    "title": "lists of ambassadors of Austria",
+    "id": "Q9149640"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q8084920",
-    "title": "list of urban areas in Finland by population"
+    "title": "list of urban areas in Finland by population",
+    "id": "Q8084920"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q9149770",
-    "title": "list of Ambassadors of the United Kingdom"
+    "title": "list of Ambassadors of the United Kingdom",
+    "id": "Q9149770"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q10767218",
-    "title": "list of world records of nature and technology"
+    "title": "list of world records of nature and technology",
+    "id": "Q10767218"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q10984257",
-    "title": "list of Finnish municipalities"
+    "title": "list of Finnish municipalities",
+    "id": "Q10984257"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q11416497",
-    "title": "list of wind orchestras"
+    "title": "list of wind orchestras",
+    "id": "Q11416497"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q11487512",
-    "title": "list of compositions for string quartet"
+    "title": "list of compositions for string quartet",
+    "id": "Q11487512"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q11338744",
-    "title": "list of recurring Mario franchise enemies"
+    "title": "list of recurring Mario franchise enemies",
+    "id": "Q11338744"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q11607583",
-    "title": "list of public administration schools"
+    "title": "list of public administration schools",
+    "id": "Q11607583"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q11818694",
-    "title": "list of fictional penguins"
+    "title": "list of fictional penguins",
+    "id": "Q11818694"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q11818584",
-    "title": "lists of fictional hybrids"
+    "title": "lists of fictional hybrids",
+    "id": "Q11818584"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q12012565",
-    "title": "list of Corbett mountains in Scotland"
+    "title": "list of Corbett mountains in Scotland",
+    "id": "Q12012565"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q12061183",
-    "title": "list of buses"
+    "title": "list of buses",
+    "id": "Q12061183"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q12368323",
-    "title": "list of singers"
+    "title": "list of singers",
+    "id": "Q12368323"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q12269642",
-    "title": "list of municipalities in the Czech Republic"
+    "title": "list of municipalities in the Czech Republic",
+    "id": "Q12269642"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q13416336",
-    "title": "list of water deities"
+    "title": "list of water deities",
+    "id": "Q13416336"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q13115238",
-    "title": "list of mudras (dance)"
+    "title": "list of mudras (dance)",
+    "id": "Q13115238"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q13581705",
-    "title": "list of avalanches"
+    "title": "list of avalanches",
+    "id": "Q13581705"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q13644484",
-    "title": "list of favelas in Brazil"
+    "title": "list of favelas in Brazil",
+    "id": "Q13644484"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q13751836",
-    "title": "list of United States congressional districts"
+    "title": "list of United States congressional districts",
+    "id": "Q13751836"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q13928769",
-    "title": "list of the Dead Sea Scrolls"
+    "title": "list of the Dead Sea Scrolls",
+    "id": "Q13928769"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q14508796",
-    "title": "list of Portuguese family names"
+    "title": "list of Portuguese family names",
+    "id": "Q14508796"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q13581178",
-    "title": "list of LGBT film festivals"
+    "title": "list of LGBT film festivals",
+    "id": "Q13581178"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q14638071",
-    "title": "list of specialized agencies of the United Nations"
+    "title": "list of specialized agencies of the United Nations",
+    "id": "Q14638071"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q14913861",
-    "title": "list of installation vessels (jack-up crane ships)"
+    "title": "list of installation vessels (jack-up crane ships)",
+    "id": "Q14913861"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q15260324",
-    "title": "list of gulfs"
+    "title": "list of gulfs",
+    "id": "Q15260324"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q15229918",
-    "title": "list of wine-producing regions"
+    "title": "list of wine-producing regions",
+    "id": "Q15229918"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q15269217",
-    "title": "list of International Labour Organization Conventions"
+    "title": "list of International Labour Organization Conventions",
+    "id": "Q15269217"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q15726398",
-    "title": "list of districts of India"
+    "title": "list of districts of India",
+    "id": "Q15726398"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q15977766",
-    "title": "list of cities and towns in Russia with more than 100.000 inhabitants"
+    "title": "list of cities and towns in Russia with more than 100.000 inhabitants",
+    "id": "Q15977766"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q15897798",
-    "title": "list of military dependents' villages"
+    "title": "list of military dependents' villages",
+    "id": "Q15897798"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16000159",
-    "title": "list of fictional extraterrestrials"
+    "title": "list of fictional extraterrestrials",
+    "id": "Q16000159"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16000154",
-    "title": "list of earthquakes in New Zealand"
+    "title": "list of earthquakes in New Zealand",
+    "id": "Q16000154"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16000170",
-    "title": "list of healthcare occupations"
+    "title": "list of healthcare occupations",
+    "id": "Q16000170"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16000191",
-    "title": "list of cosplayers"
+    "title": "list of cosplayers",
+    "id": "Q16000191"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16147934",
-    "title": "list of ambassadors of Iceland"
+    "title": "list of ambassadors of Iceland",
+    "id": "Q16147934"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16007014",
-    "title": "list of biosphere reserves in Germany"
+    "title": "list of biosphere reserves in Germany",
+    "id": "Q16007014"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16154975",
-    "title": "list of sound archives"
+    "title": "list of sound archives",
+    "id": "Q16154975"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16155100",
-    "title": "list of hip hop groups"
+    "title": "list of hip hop groups",
+    "id": "Q16155100"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16394633",
-    "title": "list of political slogans"
+    "title": "list of political slogans",
+    "id": "Q16394633"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16259465",
-    "title": "list of ornaments"
+    "title": "list of ornaments",
+    "id": "Q16259465"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16466796",
-    "title": "list of noodles"
+    "title": "list of noodles",
+    "id": "Q16466796"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16466747",
-    "title": "list of instant noodle brands"
+    "title": "list of instant noodle brands",
+    "id": "Q16466747"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16537202",
-    "title": "list of literary works"
+    "title": "list of literary works",
+    "id": "Q16537202"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16878740",
-    "title": "lists of constellations"
+    "title": "lists of constellations",
+    "id": "Q16878740"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16798275",
-    "title": "lists of dystopian works"
+    "title": "lists of dystopian works",
+    "id": "Q16798275"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q16948690",
-    "title": "list of password managers"
+    "title": "list of password managers",
+    "id": "Q16948690"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17000719",
-    "title": "list of Mexican dishes"
+    "title": "list of Mexican dishes",
+    "id": "Q17000719"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17008355",
-    "title": "list of employment websites"
+    "title": "list of employment websites",
+    "id": "Q17008355"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17006263",
-    "title": "list of university hospitals"
+    "title": "list of university hospitals",
+    "id": "Q17006263"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17065793",
-    "title": "list of home automation topics"
+    "title": "list of home automation topics",
+    "id": "Q17065793"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17067510",
-    "title": "list of slums"
+    "title": "list of slums",
+    "id": "Q17067510"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17017655",
-    "title": "list of diners"
+    "title": "list of diners",
+    "id": "Q17017655"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17005685",
-    "title": "list of commemorative months"
+    "title": "list of commemorative months",
+    "id": "Q17005685"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17099143",
-    "title": "list of soft drink flavors"
+    "title": "list of soft drink flavors",
+    "id": "Q17099143"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17099036",
-    "title": "list of sausages"
+    "title": "list of sausages",
+    "id": "Q17099036"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17098492",
-    "title": "list of lemonade topics"
+    "title": "list of lemonade topics",
+    "id": "Q17098492"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17102805",
-    "title": "list of romantic comedy films"
+    "title": "list of romantic comedy films",
+    "id": "Q17102805"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17102710",
-    "title": "list of Renaissance structures"
+    "title": "list of Renaissance structures",
+    "id": "Q17102710"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17111813",
-    "title": "lists of holidays"
+    "title": "lists of holidays",
+    "id": "Q17111813"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17100866",
-    "title": "list of fish sauces"
+    "title": "list of fish sauces",
+    "id": "Q17100866"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17097713",
-    "title": "list of condiments"
+    "title": "list of condiments",
+    "id": "Q17097713"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17097838",
-    "title": "list of dumplings"
+    "title": "list of dumplings",
+    "id": "Q17097838"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17097949",
-    "title": "list of food trucks"
+    "title": "list of food trucks",
+    "id": "Q17097949"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17099198",
-    "title": "list of street newspapers"
+    "title": "list of street newspapers",
+    "id": "Q17099198"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17086804",
-    "title": "list of chicken dishes"
+    "title": "list of chicken dishes",
+    "id": "Q17086804"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17097933",
-    "title": "list of fish dishes"
+    "title": "list of fish dishes",
+    "id": "Q17097933"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17093200",
-    "title": "list of lamb dishes"
+    "title": "list of lamb dishes",
+    "id": "Q17093200"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17097513",
-    "title": "list of beef dishes"
+    "title": "list of beef dishes",
+    "id": "Q17097513"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17099070",
-    "title": "list of seafood dishes"
+    "title": "list of seafood dishes",
+    "id": "Q17099070"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17500792",
-    "title": "list of statues of Mao Zedong"
+    "title": "list of statues of Mao Zedong",
+    "id": "Q17500792"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q17508701",
-    "title": "list of American foods"
+    "title": "list of American foods",
+    "id": "Q17508701"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18127295",
-    "title": "list of Chinese restaurants"
+    "title": "list of Chinese restaurants",
+    "id": "Q18127295"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18354883",
-    "title": "list of Diospyros species"
+    "title": "list of Diospyros species",
+    "id": "Q18354883"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18349523",
-    "title": "list of stoves"
+    "title": "list of stoves",
+    "id": "Q18349523"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18349695",
-    "title": "list of trading companies"
+    "title": "list of trading companies",
+    "id": "Q18349695"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18355682",
-    "title": "list of government-owned companies"
+    "title": "list of government-owned companies",
+    "id": "Q18355682"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18355726",
-    "title": "list of motels"
+    "title": "list of motels",
+    "id": "Q18355726"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18348425",
-    "title": "list of bakeries"
+    "title": "list of bakeries",
+    "id": "Q18348425"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18242706",
-    "title": "list of subregions of Hungary"
+    "title": "list of subregions of Hungary",
+    "id": "Q18242706"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18349453",
-    "title": "list of sheep milk cheeses"
+    "title": "list of sheep milk cheeses",
+    "id": "Q18349453"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18348916",
-    "title": "list of helicopter airlines"
+    "title": "list of helicopter airlines",
+    "id": "Q18348916"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18349646",
-    "title": "list of tea houses"
+    "title": "list of tea houses",
+    "id": "Q18349646"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18349241",
-    "title": "list of pasta dishes"
+    "title": "list of pasta dishes",
+    "id": "Q18349241"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18348037",
-    "title": "list of Sicilian dishes"
+    "title": "list of Sicilian dishes",
+    "id": "Q18348037"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18349329",
-    "title": "list of railway test tracks"
+    "title": "list of railway test tracks",
+    "id": "Q18349329"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18355206",
-    "title": "list of Japanese restaurants"
+    "title": "list of Japanese restaurants",
+    "id": "Q18355206"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18355354",
-    "title": "list of Mexican restaurants"
+    "title": "list of Mexican restaurants",
+    "id": "Q18355354"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18475027",
-    "title": "list of former freguesias of Portugal"
+    "title": "list of former freguesias of Portugal",
+    "id": "Q18475027"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18715646",
-    "title": "list of E numbers"
+    "title": "list of E numbers",
+    "id": "Q18715646"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q19594641",
-    "title": "list of fictional canines"
+    "title": "list of fictional canines",
+    "id": "Q19594641"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q19577619",
-    "title": "list of national parks of Spain and their relationship to sites of community importance"
+    "title": "list of national parks of Spain and their relationship to sites of community importance",
+    "id": "Q19577619"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q19294911",
-    "title": "list of sauces"
+    "title": "list of sauces",
+    "id": "Q19294911"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18479525",
-    "title": "list of sertanejo duos from Brazil"
+    "title": "list of sertanejo duos from Brazil",
+    "id": "Q18479525"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q18466845",
-    "title": "list of religious symbols"
+    "title": "list of religious symbols",
+    "id": "Q18466845"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q19839602",
-    "title": "list of villages in China"
+    "title": "list of villages in China",
+    "id": "Q19839602"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q19952613",
-    "title": "list of boy bands"
+    "title": "list of boy bands",
+    "id": "Q19952613"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20312376",
-    "title": "list of banks"
+    "title": "list of banks",
+    "id": "Q20312376"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20717898",
-    "title": "list of white dwarfs"
+    "title": "list of white dwarfs",
+    "id": "Q20717898"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20310888",
-    "title": "list of architectural styles"
+    "title": "list of architectural styles",
+    "id": "Q20310888"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20900298",
-    "title": "list of fictional islands"
+    "title": "list of fictional islands",
+    "id": "Q20900298"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q21013762",
-    "title": "list of mythologies"
+    "title": "list of mythologies",
+    "id": "Q21013762"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q21067929",
-    "title": "list of juices"
+    "title": "list of juices",
+    "id": "Q21067929"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20716807",
-    "title": "list of custard desserts"
+    "title": "list of custard desserts",
+    "id": "Q20716807"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20715911",
-    "title": "list of girl groups"
+    "title": "list of girl groups",
+    "id": "Q20715911"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20717714",
-    "title": "list of Grewia species"
+    "title": "list of Grewia species",
+    "id": "Q20717714"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20716276",
-    "title": "list of pancakes"
+    "title": "list of pancakes",
+    "id": "Q20716276"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20716445",
-    "title": "list of frozen dessert brands"
+    "title": "list of frozen dessert brands",
+    "id": "Q20716445"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20737117",
-    "title": "list of tuba concertos"
+    "title": "list of tuba concertos",
+    "id": "Q20737117"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q20716222",
-    "title": "list of bottled water brands"
+    "title": "list of bottled water brands",
+    "id": "Q20716222"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q21535512",
-    "title": "list of unfinished buildings"
+    "title": "list of unfinished buildings",
+    "id": "Q21535512"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q22065638",
-    "title": "list of municipalities of Angola"
+    "title": "list of municipalities of Angola",
+    "id": "Q22065638"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q22230868",
-    "title": "List of Asian Games medalists in badminton"
+    "title": "List of Asian Games medalists in badminton",
+    "id": "Q22230868"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q21704873",
-    "title": "list of municipalities of Lithuania"
+    "title": "list of municipalities of Lithuania",
+    "id": "Q21704873"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q22137259",
-    "title": "list of identical twins"
+    "title": "list of identical twins",
+    "id": "Q22137259"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q21559589",
-    "title": "list of areas of London"
+    "title": "list of areas of London",
+    "id": "Q21559589"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q22906509",
-    "title": "list of Tōshō-gū"
+    "title": "list of Tōshō-gū",
+    "id": "Q22906509"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q22936473",
-    "title": "list of ambassadors of Egypt"
+    "title": "list of ambassadors of Egypt",
+    "id": "Q22936473"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q22934923",
-    "title": "list of laboratory equipment"
+    "title": "list of laboratory equipment",
+    "id": "Q22934923"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q24210689",
-    "title": "list of provinces of Angola"
+    "title": "list of provinces of Angola",
+    "id": "Q24210689"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q23780586",
-    "title": "list of ambassadors to the Philippines"
+    "title": "list of ambassadors to the Philippines",
+    "id": "Q23780586"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q25036205",
-    "title": "list of national parks of Brazil"
+    "title": "list of national parks of Brazil",
+    "id": "Q25036205"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q25037374",
-    "title": "list of medical libraries"
+    "title": "list of medical libraries",
+    "id": "Q25037374"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q25037366",
-    "title": "list of sugars"
+    "title": "list of sugars",
+    "id": "Q25037366"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q25197302",
-    "title": "list of ethnic slurs"
+    "title": "list of ethnic slurs",
+    "id": "Q25197302"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q26162570",
-    "title": "list of Roman praenomen"
+    "title": "list of Roman praenomen",
+    "id": "Q26162570"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q24700976",
-    "title": "list of LGBT bookstores"
+    "title": "list of LGBT bookstores",
+    "id": "Q24700976"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q26720850",
-    "title": "list of ministries of the Netherlands"
+    "title": "list of ministries of the Netherlands",
+    "id": "Q26720850"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q26911498",
-    "title": "list of embassies"
+    "title": "list of embassies",
+    "id": "Q26911498"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q26282149",
-    "title": "list of horse-drawn vehicles"
+    "title": "list of horse-drawn vehicles",
+    "id": "Q26282149"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q26722839",
-    "title": "list of protected areas of the Czech Republic"
+    "title": "list of protected areas of the Czech Republic",
+    "id": "Q26722839"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q27676162",
-    "title": "list of Device Forts"
+    "title": "list of Device Forts",
+    "id": "Q27676162"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q25036572",
-    "title": "list of veal dishes"
+    "title": "list of veal dishes",
+    "id": "Q25036572"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q28133058",
-    "title": "list of mining trails"
+    "title": "list of mining trails",
+    "id": "Q28133058"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q29347181",
-    "title": "list of anthology films"
+    "title": "list of anthology films",
+    "id": "Q29347181"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q28872341",
-    "title": "list of periodic comets"
+    "title": "list of periodic comets",
+    "id": "Q28872341"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q29915387",
-    "title": "list of Tibetan dishes"
+    "title": "list of Tibetan dishes",
+    "id": "Q29915387"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q30303916",
-    "title": "list of music recording certifications"
+    "title": "list of music recording certifications",
+    "id": "Q30303916"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q30681785",
-    "title": "list of ramen dishes"
+    "title": "list of ramen dishes",
+    "id": "Q30681785"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q30593145",
-    "title": "list of cleaning products"
+    "title": "list of cleaning products",
+    "id": "Q30593145"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q33191461",
-    "title": "list of lightvessels"
+    "title": "list of lightvessels",
+    "id": "Q33191461"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q30766075",
-    "title": "list of districts in Turkey"
+    "title": "list of districts in Turkey",
+    "id": "Q30766075"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q30716068",
-    "title": "list of provincial parks in Manitoba"
+    "title": "list of provincial parks in Manitoba",
+    "id": "Q30716068"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q31202300",
-    "title": "list of districts of Graz"
+    "title": "list of districts of Graz",
+    "id": "Q31202300"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q30843159",
-    "title": "list of municipalities of Honduras"
+    "title": "list of municipalities of Honduras",
+    "id": "Q30843159"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q33285947",
-    "title": "list of Bible dictionaries"
+    "title": "list of Bible dictionaries",
+    "id": "Q33285947"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q30312567",
-    "title": "list of papal renunciations"
+    "title": "list of papal renunciations",
+    "id": "Q30312567"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q39086546",
-    "title": "list of meat dishes"
+    "title": "list of meat dishes",
+    "id": "Q39086546"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q41911880",
-    "title": "list of villages in Japan"
+    "title": "list of villages in Japan",
+    "id": "Q41911880"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q39087493",
-    "title": "list of meatball dishes"
+    "title": "list of meatball dishes",
+    "id": "Q39087493"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q35016965",
-    "title": "list of oblasts of the Russian Empire"
+    "title": "list of oblasts of the Russian Empire",
+    "id": "Q35016965"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q39075731",
-    "title": "list of Quebec by-elections"
+    "title": "list of Quebec by-elections",
+    "id": "Q39075731"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q39086485",
-    "title": "list of Falcon 9 boosters"
+    "title": "list of Falcon 9 boosters",
+    "id": "Q39086485"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q48799090",
-    "title": "list of imperial elections in the Holy Roman Empire"
+    "title": "list of imperial elections in the Holy Roman Empire",
+    "id": "Q48799090"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q48103755",
-    "title": "list of towns in Japan"
+    "title": "list of towns in Japan",
+    "id": "Q48103755"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q48803462",
-    "title": "list of goat milk cheeses"
+    "title": "list of goat milk cheeses",
+    "id": "Q48803462"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q48798519",
-    "title": "list of modeling agencies"
+    "title": "list of modeling agencies",
+    "id": "Q48798519"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q48808307",
-    "title": "list of sushi restaurants"
+    "title": "list of sushi restaurants",
+    "id": "Q48808307"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q55617282",
-    "title": "list of Menhirs"
+    "title": "list of Menhirs",
+    "id": "Q55617282"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q55177041",
-    "title": "list of regions of the People's Republic of China"
+    "title": "list of regions of the People's Republic of China",
+    "id": "Q55177041"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q55617204",
-    "title": "list of ISU World Standings and Season's World Ranking statistics"
+    "title": "list of ISU World Standings and Season's World Ranking statistics",
+    "id": "Q55617204"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q55619301",
-    "title": "list of cross and circle games"
+    "title": "list of cross and circle games",
+    "id": "Q55619301"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q55935597",
-    "title": "list of ITU-T Recommendations"
+    "title": "list of ITU-T Recommendations",
+    "id": "Q55935597"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q57078789",
-    "title": "list of flags"
+    "title": "list of flags",
+    "id": "Q57078789"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q60496904",
-    "title": "list of districts and regions in Norway"
+    "title": "list of districts and regions in Norway",
+    "id": "Q60496904"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q60518787",
-    "title": "list of tells"
+    "title": "list of tells",
+    "id": "Q60518787"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q60518143",
-    "title": "list of red dwarfs"
+    "title": "list of red dwarfs",
+    "id": "Q60518143"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q60449519",
-    "title": "list of musical medleys"
+    "title": "list of musical medleys",
+    "id": "Q60449519"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q61718811",
-    "title": "list of fire stations"
+    "title": "list of fire stations",
+    "id": "Q61718811"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q63068658",
-    "title": "list of submarine classes"
+    "title": "list of submarine classes",
+    "id": "Q63068658"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q63254687",
-    "title": "list of musical expression marks"
+    "title": "list of musical expression marks",
+    "id": "Q63254687"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q59773520",
-    "title": "list of fictional princes"
+    "title": "list of fictional princes",
+    "id": "Q59773520"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q56754701",
-    "title": "list of nuclear facilities"
+    "title": "list of nuclear facilities",
+    "id": "Q56754701"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q58872716",
-    "title": "list of barons in the peerage of Spain"
+    "title": "list of barons in the peerage of Spain",
+    "id": "Q58872716"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q64358609",
-    "title": "list of singer-songwriters by name"
+    "title": "list of singer-songwriters by name",
+    "id": "Q64358609"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q64157250",
-    "title": "List of Antarctic research stations"
+    "title": "List of Antarctic research stations",
+    "id": "Q64157250"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q65088695",
-    "title": "list of trade magazines"
+    "title": "list of trade magazines",
+    "id": "Q65088695"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q65050412",
-    "title": "Lists of boys' schools"
+    "title": "Lists of boys' schools",
+    "id": "Q65050412"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q65050410",
-    "title": "Lists of girls' schools"
+    "title": "Lists of girls' schools",
+    "id": "Q65050410"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q66037955",
-    "title": "List of rock formations"
+    "title": "List of rock formations",
+    "id": "Q66037955"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q67198618",
-    "title": "list of Muslims"
+    "title": "list of Muslims",
+    "id": "Q67198618"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q66763417",
-    "title": "list of lists of fictional characters"
+    "title": "list of lists of fictional characters",
+    "id": "Q66763417"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q66763472",
-    "title": "list of lists of fictional characters by occupation"
+    "title": "list of lists of fictional characters by occupation",
+    "id": "Q66763472"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q67197591",
-    "title": "Wikimedia list of persons by ethnicity (P172)"
+    "title": "Wikimedia list of persons by ethnicity (P172)",
+    "id": "Q67197591"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q69136866",
-    "title": "List of municipalities of El Salvador"
+    "title": "List of municipalities of El Salvador",
+    "id": "Q69136866"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q19881269",
-    "title": "list of villages in Bangladesh"
+    "title": "list of villages in Bangladesh",
+    "id": "Q19881269"
   },
   {
     "uri": "http://www.wikidata.org/entity/Q19893551",
-    "title": "list of notable monumental crosses"
+    "title": "list of notable monumental crosses",
+    "id": "Q19893551"
   }
 ]
