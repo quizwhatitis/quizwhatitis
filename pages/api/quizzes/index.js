@@ -5,7 +5,7 @@ export default (req, res) => {
     x =>
       [
         "Q16322", // Cryptid
-        "Q40742", // Poker hand
+        "Q51805", // Star wars
         "Q236209" // Pokemon species
       ].indexOf(x.id) !== -1
   );

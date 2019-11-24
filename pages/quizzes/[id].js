@@ -5,7 +5,6 @@ import Nav from "../../components/nav";
 import Vote from "../../components/vote";
 import fetch from "isomorphic-unfetch";
 import config from "../../config";
-import PersonalityMap from "../../components/personalitymap";
 
 function QuizIntro({ itemName, handleBegin }) {
   return (

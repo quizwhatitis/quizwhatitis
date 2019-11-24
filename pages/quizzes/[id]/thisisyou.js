@@ -5,7 +5,6 @@ import Vote from "../../../components/vote";
 import fetch from "isomorphic-unfetch";
 import config from "../../../config";
 import PersonalityMap from "../../../components/personalitymap";
-import quizzes from "../../../quizzes_with_results_and_answers";
 
 function QuizResult({ title, extract, imageUrl, traits, otherTitles }) {
   return (
