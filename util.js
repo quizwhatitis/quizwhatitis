@@ -16,7 +16,18 @@ const randomFromList = (seed, list) => {
   return list[intFromSeed(seed) % (list.length - 1)];
 };
 
+const randomSubsetFromList = (seed, n, list) => {
+  return [...list]
+    .sort(
+      (x, y) =>
+        intFromSeed(JSON.stringify(seed + x)) -
+        intFromSeed(JSON.stringify(seed + y))
+    )
+    .slice(0, n);
+};
+
 module.exports = {
   intFromSeed,
-  randomFromList
+  randomFromList,
+  randomSubsetFromList
 };
