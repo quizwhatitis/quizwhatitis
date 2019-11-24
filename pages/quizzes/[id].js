@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Router from 'next/router'
 import Nav from "../../components/nav";
 import Vote from "../../components/vote";
 import fetch from "isomorphic-unfetch";
@@ -15,38 +16,6 @@ function QuizIntro({ itemName, handleBegin }) {
           <h3>Begin!</h3>
         </a>
       </div>
-    </>
-  );
-}
-
-function QuizResult({
-  result: { title, extract, imageUrl, traits, otherTitles },
-  answers
-}) {
-  return (
-    <>
-      {title ? (
-        <>
-          <h1 className="title">
-            Congratulations! You have the personality of {title}
-          </h1>
-          <div dangerouslySetInnerHTML={{ __html: extract }} />
-          {imageUrl ? <img src={imageUrl} width="400" /> : null}
-          <PersonalityMap
-            traits={traits}
-            winnerName={title}
-            otherTitles={otherTitles}
-            seed={otherTitles}
-          />
-        </>
-      ) : (
-        <>
-          <h1 className="title">
-            Congratulations! Here is a picture of your personality:
-          </h1>
-          {imageUrl ? <img src={imageUrl} width="400" /> : null}
-        </>
-      )}
     </>
   );
 }
@@ -73,7 +42,6 @@ class Quiz extends React.Component {
     super(props);
     this.state = {
       isIntro: true,
-      result: null,
       page: 0,
       answers: {}
     };
@@ -103,20 +71,16 @@ class Quiz extends React.Component {
       async () => {
         if (nextQuestion) return;
         const { answers } = this.state;
-        const body = JSON.stringify({ answers });
-        const res = await fetch(`${config.serverUri}/api/quizzes/${id}`, {
-          method: "POST",
-          body
-        });
-        const result = await res.json();
-        this.setState({ result });
+        Router.push(`/quizzes/${id}/thisisyou?a=${this.encodeAnswers(answers)}`)
       }
     );
   };
 
+  encodeAnswers = (answers) => btoa(JSON.stringify(answers))
+
   render() {
     const { quiz, questions } = this.props;
-    const { isIntro, result, page } = this.state;
+    const { isIntro, page } = this.state;
 
     if (!questions) {
       return renderPage(<div>Not found</div>);
@@ -124,12 +88,6 @@ class Quiz extends React.Component {
 
     if (isIntro) {
       return renderPage(<QuizIntro {...quiz} handleBegin={this.handleBegin} />);
-    }
-
-    if (result) {
-      return renderPage(
-        <QuizResult {...quiz} result={result} answers={this.state.answers} />
-      );
     }
 
     const question = questions[page];
