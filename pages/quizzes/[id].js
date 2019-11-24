@@ -121,6 +121,11 @@ class Quiz extends React.Component {
     return renderPage(
       <div key={question}>
         <h1 className="title">{question.instructions}</h1>
+        <div className="questionImageDiv">
+          {question.questionImage ? (
+            <img src={question.questionImage} className="questionImage" />
+          ) : null}
+        </div>
 
         <div className="row">
           {question.options.map((option, i) => {
@@ -201,6 +206,12 @@ const style = (
   padding: 12px 0 0;
   font-size: 13px;
   color: #333;
+}
+.questionImageDiv {
+text-align: center;
+}
+.questionImage{
+width: 400px;
 }
 `}</style>
 );

@@ -182,6 +182,10 @@ const pickYourFavoriteSubclassQuestion = (pickYourFavoriteCorpus, seed) => {
     );
   });
 
+  if (pickYourFavoriteCorpus[i].images.length === 0) {
+    return generateYesOrNoQuestion(seed, pickYourFavoriteCorpus[i].images[0]);
+  }
+
   return {
     instructions: `Pick your favorite ${name}`,
     options: pickYourFavoriteCorpus[i].images
