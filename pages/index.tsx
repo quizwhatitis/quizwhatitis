@@ -85,9 +85,8 @@ function makeSingular (s) {
     }, null) || s
 }
 function getQuizName({ title }) {
-  title = title.toLowerCase();
   title = title.replace(/by name$/, "")
-  if (title.startsWith(listPrefix)) {
+  if (title.toLowerCase().startsWith(listPrefix)) {
     title = title.slice(listPrefix.length + 1);
   }
 
