@@ -9,9 +9,9 @@ const withCache = async (name, fetchText) => {
   try {
     return fs.readFileSync(name).toString();
   } catch (e) {
-    console.error(`could not find cache in ${cacheName}, sending query`);
+    console.error(`could not find cache in ${name}, sending query`);
     const res = await fetchText();
-    fs.writeFileSync(name);
+    fs.writeFileSync(name, res);
     return res;
   }
 };
@@ -60,13 +60,14 @@ const augmentQuizWithResults = async quiz => {
 
 const fetchQuizList = async () => {
   const query = `
-SELECT distinct ?list ?listLabel {
+SELECT distinct ?list ?listLabel ?itemName ?itemNameLabel {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
   # ?listArticle wdt:P31 wd:Q13406463.
   # ?listArticle wdt:P3921 ?sparql.
   ?listItem wdt:P31 ?y.
   ?y wdt:P910 ?z.
   ?z wdt:P1753 ?list.
+  ?list wdt:P360 ?itemName.
  }
 LIMIT 1000
 `;
@@ -80,7 +81,9 @@ LIMIT 1000
     .map(x => {
       const uri = x.binding.filter(y => y["uri"])[0].uri[0];
       const title = x.binding.filter(y => y["literal"])[0].literal[0]["_"];
-      return { uri, title, id: idFromURI(uri) };
+      const itemName = x.binding.filter(y => y["$"].name === "itemNameLabel")[0]
+        .literal[0]["_"];
+      return { uri, title, itemName, id: idFromURI(uri) };
     })
     .filter(
       x =>

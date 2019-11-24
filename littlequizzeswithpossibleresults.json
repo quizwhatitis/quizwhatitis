@@ -2,6 +2,7 @@
   {
     "uri": "http://www.wikidata.org/entity/Q16322",
     "title": "list of cryptids",
+    "itemName": "cryptid",
     "id": "Q16322",
     "possible_results": [
       {
@@ -257,6 +258,7 @@
   {
     "uri": "http://www.wikidata.org/entity/Q40742",
     "title": "list of poker hands",
+    "itemName": "poker hand",
     "id": "Q40742",
     "possible_results": [
       {
@@ -269,6 +271,7 @@
   {
     "uri": "http://www.wikidata.org/entity/Q627843",
     "title": "List of industrial disasters",
+    "itemName": "industrial disaster",
     "id": "Q627843",
     "possible_results": [
       {
