@@ -23,6 +23,20 @@ function QuizResult({ title, extract, imageUrl, traits, otherTitles }) {
           <>
             <h1 className="title">
               Congratulations! You have the personality of {title}
+              <p>
+                <a class="twitter-share-button"
+                  target="_blank"
+                  href={'https://twitter.com/intent/tweet' +
+                    '?hashtags=quizwhatitis' +
+                    '&url=' +
+                    encodeURIComponent(config.serverUri) +
+                    '&text=' +
+                    encodeURIComponent(`I have personality of ${title}!\n`)
+                  }
+                >
+                  Tweet!
+                </a>
+              </p>
             </h1>
             <div dangerouslySetInnerHTML={{ __html: extract }} />
             {imageUrl ? <img src={imageUrl} width="400" /> : null}
