@@ -63,6 +63,21 @@ function getQuizUri({ id }) {
   return "/quizzes/" + id;
 }
 
+function relationship() {
+  const r = [
+    'are you',
+    'best describes you',
+    'really GETS you',
+    'speaks to you',
+    'knows where you\'re coming from',
+    'has seen what you\'ve seen',
+    'is your spirit animal',
+    'has really like been there, ya\'know',
+    'best matches your personality',
+  ];
+  return r[Math.floor(Math.random()*r.length)];
+}
+
 function getQuizName({ title }) {
   title = title
     .replace(/list of /i, "")
@@ -81,7 +96,7 @@ function getQuizName({ title }) {
     })
     .join(" ");
 
-  return `What ${title} are you?`;
+  return `What ${title} ${relationship()}?`;
 }
 
 export default Home;
