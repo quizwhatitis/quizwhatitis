@@ -1,73 +1,72 @@
-import React from 'react'
-import Head from 'next/head'
-import Nav from '../components/nav'
-import fetch from 'isomorphic-unfetch'
+import React from "react";
+import Head from "next/head";
+import Nav from "../components/nav";
+import fetch from "isomorphic-unfetch";
 
-function Home ({quizzes}) {
-  const quizLinks = quizzes.map(({title, id}) => (
+function Home({ quizzes }) {
+  const quizLinks = quizzes.map(({ title, id }) => (
     <li key={id}>
-      <a href={getQuizUri({id})}>
-        {getQuizName({title})}
-      </a>
+      <a href={getQuizUri({ id })}>{getQuizName({ title })}</a>
     </li>
-  ))
+  ));
 
   return (
     <div>
       <Head>
         <title>Quiz what it is</title>
         <link rel="icon" href="/favicon.ico" />
+        <script
+          src="http://www.nodeknockout.com/entries/40-twisted-ankle/vote.js"
+          type="text/javascript"
+        ></script>
       </Head>
 
       <Nav />
 
       <div className="hero">
         <h1 className="title">Quiz what it is</h1>
-        <p className="description">
-          Personality quizzes for everything!
-        </p>
+        <p className="description">Personality quizzes for everything!</p>
 
         <div className="row">
-          <ul>
-            {quizLinks}
-          </ul>
+          <ul>{quizLinks}</ul>
         </div>
       </div>
 
       {style}
     </div>
-  )
+  );
 }
 
 Home.getInitialProps = async ({ req }) => {
   // we can load stuff from the DB/fs here
-  const response = await fetch(`http://localhost:3000/api/quizzes`)
+  const response = await fetch(`http://localhost:3000/api/quizzes`);
   return response.json();
+};
+
+function getQuizUri({ id }) {
+  return "./quizzes/" + id;
 }
 
-function getQuizUri({id}) {
-  return "./quizzes/" + id
-}
-
-const listPrefix = 'list of'
-const pluralSuffix = 's'
-function getQuizName({title}) {
+const listPrefix = "list of";
+const pluralSuffix = "s";
+function getQuizName({ title }) {
   title = title.toLowerCase();
 
   if (title.startsWith(listPrefix)) {
-    title = title.slice(listPrefix.length + 1)
+    title = title.slice(listPrefix.length + 1);
   }
 
   if (title.endsWith(pluralSuffix)) {
-    title = title.slice(0, -pluralSuffix.length)
+    title = title.slice(0, -pluralSuffix.length);
   }
 
-  return `What ${title} are you?`
+  return `What ${title} are you?`;
 }
 
-export default Home
+export default Home;
 
-const style = <style>{`
+const style = (
+  <style>{`
 .hero {
   width: 100%;
   color: #333;
@@ -113,3 +112,4 @@ const style = <style>{`
   color: #333;
 }
 `}</style>
+);
