@@ -147,7 +147,11 @@ LIMIT 1000
 
   return results.map(x => {
     const uri = x.binding.filter(y => y["uri"])[0].uri[0];
-    return uri;
+    prettyLog(uri);
+    if (uri.split(",").length > 1) {
+      prettyLog(uri);
+    }
+    return uri.split(",")[0];
   });
 };
 
@@ -171,10 +175,10 @@ const intFromSeed = seed => {
 const subclassQuestions = name => [
   `If you were stuck on a desert island with only one ${name}, which would you pick?`,
   `Pick your favorite ${name}`,
-  `Pick your favorite ${name}`,
-  `Pick your favorite ${name}`,
-  `Pick your least favorite ${name}`,
-  `Pick your least favorite ${name}`,
+  `Which ${name} do you prefer`,
+  `If you were a ${name}, which would you be`,
+  `Which ${name} matches your energy`,
+  `Stare deeply into each ${name}. Pick the one that speaks to you.`,
   `If you could spend an entire day with one ${name}, which would you pick?`,
   `If you could force everybody in the world to study one ${name}, which would you pick?`
 ];
@@ -228,7 +232,16 @@ const yesOrNoOptionses = [
   ["no, are you crazy?", "alas, yes"],
   [("regrettably no", "yes, it appears")]
 ];
-const yesOrNoImageQuestions = ["Is this a sandwich?"];
+const yesOrNoImageQuestions = [
+  "Is this a sandwich?",
+  "Do you consider this a sandwich?",
+  "Would you eat this if I paid you a million dollars?",
+  "Would the world be a better place without this?",
+  "Would you wear this out on a date?",
+  "Does this remind you of someone?",
+  "Does this invoke cherished memories?",
+  "Do you want more of things like this in your life?"
+];
 
 const randomImage = (subclassImages, seed) =>
   randomFromList(
