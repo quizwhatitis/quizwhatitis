@@ -6,21 +6,6 @@
     "id": "Q16322",
     "possible_results": [
       {
-        "uri": "http://www.wikidata.org/entity/Q183571",
-        "title": "Chupacabra",
-        "id": "Q183571"
-      },
-      {
-        "uri": "http://www.wikidata.org/entity/Q129628",
-        "title": "Yeti",
-        "id": "Q129628"
-      },
-      {
-        "uri": "http://www.wikidata.org/entity/Q964575",
-        "title": "Yowie",
-        "id": "Q964575"
-      },
-      {
         "uri": "http://www.wikidata.org/entity/Q225419",
         "title": "Gambo",
         "id": "Q225419"
@@ -29,11 +14,6 @@
         "uri": "http://www.wikidata.org/entity/Q2419149",
         "title": "Flatwoods monster",
         "id": "Q2419149"
-      },
-      {
-        "uri": "http://www.wikidata.org/entity/Q2466364",
-        "title": "Ningen",
-        "id": "Q2466364"
       },
       {
         "uri": "http://www.wikidata.org/entity/Q3305648",
@@ -47,11 +27,6 @@
       {
         "uri": "http://www.wikidata.org/entity/Q6126233",
         "id": "Q6126233"
-      },
-      {
-        "uri": "http://www.wikidata.org/entity/Q555716",
-        "title": "Mokele-mbembe",
-        "id": "Q555716"
       },
       {
         "uri": "http://www.wikidata.org/entity/Q2275321",
@@ -83,6 +58,12 @@
         "id": "Q9364462"
       },
       {
+        "uri": "http://www.wikidata.org/entity/Q6933092",
+        "title": "Muhuru",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Muhuru.png",
+        "id": "Q6933092"
+      },
+      {
         "uri": "http://www.wikidata.org/entity/Q11684142",
         "id": "Q11684142"
       },
@@ -111,11 +92,6 @@
         "id": "Q655582"
       },
       {
-        "uri": "http://www.wikidata.org/entity/Q6148502",
-        "title": "Kaijin",
-        "id": "Q6148502"
-      },
-      {
         "uri": "http://www.wikidata.org/entity/Q21086012",
         "id": "Q21086012"
       },
@@ -123,6 +99,12 @@
         "uri": "http://www.wikidata.org/entity/Q272149",
         "title": "Mongolian death worm",
         "id": "Q272149"
+      },
+      {
+        "uri": "http://www.wikidata.org/entity/Q6148502",
+        "title": "Kaijin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hirokawa%20Kaijin.jpg",
+        "id": "Q6148502"
       },
       {
         "uri": "http://www.wikidata.org/entity/Q1426084",
@@ -174,11 +156,6 @@
         "id": "Q4300632"
       },
       {
-        "uri": "http://www.wikidata.org/entity/Q679574",
-        "title": "Orang Pendek",
-        "id": "Q679574"
-      },
-      {
         "uri": "http://www.wikidata.org/entity/Q926429",
         "title": "Nahuelito",
         "id": "Q926429"
@@ -187,11 +164,6 @@
         "uri": "http://www.wikidata.org/entity/Q1252960",
         "title": "Dover Demon",
         "id": "Q1252960"
-      },
-      {
-        "uri": "http://www.wikidata.org/entity/Q6933092",
-        "title": "Muhuru",
-        "id": "Q6933092"
       },
       {
         "uri": "http://www.wikidata.org/entity/Q7607250",
@@ -239,9 +211,27 @@
         "id": "Q37527445"
       },
       {
+        "uri": "http://www.wikidata.org/entity/Q183571",
+        "title": "Chupacabra",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chupacabras.svg",
+        "id": "Q183571"
+      },
+      {
         "uri": "http://www.wikidata.org/entity/Q48724157",
         "title": "Menk",
         "id": "Q48724157"
+      },
+      {
+        "uri": "http://www.wikidata.org/entity/Q555716",
+        "title": "Mokele-mbembe",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mokele-mbembe%20ill%20artlibre%20jnl.png",
+        "id": "Q555716"
+      },
+      {
+        "uri": "http://www.wikidata.org/entity/Q964575",
+        "title": "Yowie",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yowie-statue-Kilcoy-Queensland.JPG",
+        "id": "Q964575"
       },
       {
         "uri": "http://www.wikidata.org/entity/Q44810",
@@ -249,9 +239,27 @@
         "id": "Q44810"
       },
       {
+        "uri": "http://www.wikidata.org/entity/Q129628",
+        "title": "Yeti",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/B5bugerbear.jpg",
+        "id": "Q129628"
+      },
+      {
         "uri": "http://www.wikidata.org/entity/Q48660",
         "title": "Queensland tiger",
         "id": "Q48660"
+      },
+      {
+        "uri": "http://www.wikidata.org/entity/Q679574",
+        "title": "Orang Pendek",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Orang%20Pendek.png",
+        "id": "Q679574"
+      },
+      {
+        "uri": "http://www.wikidata.org/entity/Q2466364",
+        "title": "Ningen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ningen.jpg",
+        "id": "Q2466364"
       }
     ]
   },
@@ -264,6 +272,7 @@
       {
         "uri": "http://www.wikidata.org/entity/Q13104905",
         "title": "royal flush",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Flush%20w.jpg",
         "id": "Q13104905"
       }
     ]
@@ -285,14 +294,15 @@
         "id": "Q4611118"
       },
       {
+        "uri": "http://www.wikidata.org/entity/Q68799845",
+        "title": "Lubrizol factory fire in Rouen in 2019",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20BRIOT%20Incendie%20usine%20Lubrizol%20Rouen%202019-2020-2021%20Paysages-009-20190926.jpg",
+        "id": "Q68799845"
+      },
+      {
         "uri": "http://www.wikidata.org/entity/Q8190",
         "title": "Seveso disaster",
         "id": "Q8190"
-      },
-      {
-        "uri": "http://www.wikidata.org/entity/Q68799845",
-        "title": "Lubrizol factory fire in Rouen in 2019",
-        "id": "Q68799845"
       }
     ]
   }

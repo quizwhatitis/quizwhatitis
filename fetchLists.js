@@ -5,6 +5,9 @@ const fs = require("fs");
 
 const action = process.argv[2];
 
+const prettyPrint = x => console.log(JSON.stringify(x, null, 2));
+const prettyLog = x => console.error(JSON.stringify(x, null, 2));
+
 const withCache = async (name, fetchText) => {
   try {
     return fs.readFileSync(name).toString();
@@ -33,11 +36,12 @@ const idFromURI = uri => uri.split("/").slice(-1)[0];
 
 const fetchPossibleQuizResults = async listID => {
   const query = `
-SELECT distinct ?listItem ?listItemLabel {
+SELECT distinct ?listItem ?listItemLabel ?image {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
   ?listItem wdt:P31 ?y.
   ?y wdt:P910 ?z.
   ?z wdt:P1753 wd:${listID}.
+  OPTIONAL {?listItem wdt:P18 ?image}
 }
 LIMIT 1000
 `;
@@ -49,7 +53,10 @@ LIMIT 1000
   const list = results.map(x => {
     const uri = x.binding.filter(y => y["uri"])[0].uri[0];
     const title = x.binding.filter(y => y["literal"])[0].literal[0]["_"];
-    return { uri, title, id: idFromURI(uri) };
+    const image = x.binding
+      .filter(y => y["$"].name === "image")
+      .map(y => y.uri[0])[0];
+    return { uri, title, image, id: idFromURI(uri) };
   });
   return list;
 };
@@ -91,8 +98,6 @@ LIMIT 1000
         (x.title.indexOf("List") !== -1 || x.title.indexOf("list") !== -1)
     );
 };
-
-const prettyPrint = x => console.log(JSON.stringify(x, null, 2));
 
 const main = async () => {
   if (action === "quizzes") {
