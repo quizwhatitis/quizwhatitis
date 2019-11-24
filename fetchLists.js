@@ -9,23 +9,28 @@ const prettyPrint = x => console.log(JSON.stringify(x, null, 2));
 const prettyLog = x => console.error(JSON.stringify(x, null, 2));
 
 const withCache = async (name, fetchText) => {
+  const path = `cache/${name}`;
   try {
-    return fs.readFileSync(name).toString();
+    return fs.readFileSync(path).toString();
   } catch (e) {
-    console.error(`could not find cache in ${name}, sending query`);
+    console.error(`could not find cache in ${path}, sending query`);
     const res = await fetchText();
-    fs.writeFileSync(name, res);
+    fs.writeFileSync(path, res);
     return res;
   }
 };
 
 const fromWikidata = async (query, cache) => {
   const f = async () => {
-    return await (
+    const text = await (
       await fetch(
         "https://query.wikidata.org/sparql?query=" + encodeURIComponent(query)
       )
     ).text();
+    if (text === "Rate limit exceeded") {
+      throw new Error(`${text} ${query}`);
+    }
+    return text;
   };
 
   const text = cache ? await withCache(cache, f) : await f();
@@ -99,6 +104,79 @@ LIMIT 1000
     );
 };
 
+const fetchSubSubclasses = async classId => {
+  const query = `
+SELECT distinct ?subclass ?subclassLabel {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    ?intclass wdt:P279 wd:${classId}.
+    ?subclass wdt:P279 ?intclass.
+    ?image wdt:P180 ?subclass.
+ }
+LIMIT 1000
+`;
+  const json = await fromWikidata(query, `subsubclasses-${classId}.xml`);
+
+  const results = json.sparql.results.reduce((acc, r) => {
+    return [...acc, ...r.result];
+  }, []);
+
+  return results.map(x => {
+    const uri = x.binding.filter(y => y["$"].name === "subclass")[0].uri[0];
+    const subclassName = x.binding.filter(
+      y => y["$"].name === "subclassLabel"
+    )[0].literal[0]["_"];
+    return { uri, subclassName, id: idFromURI(uri) };
+  });
+};
+
+const fetchSubclasses = async classId => {
+  const query = `
+SELECT distinct ?subclass ?subclassLabel {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    ?subclass wdt:P279 wd:${classId}.
+    ?image wdt:P180 ?subclass.
+ }
+LIMIT 1000
+`;
+  const json = await fromWikidata(query, `subclasses-${classId}.xml`);
+
+  const results = json.sparql.results.reduce((acc, r) => {
+    return [...acc, ...r.result];
+  }, []);
+
+  return results.map(x => {
+    const uri = x.binding.filter(y => y["$"].name === "subclass")[0].uri[0];
+    const subclassName = x.binding.filter(
+      y => y["$"].name === "subclassLabel"
+    )[0].literal[0]["_"];
+    return { uri, subclassName, id: idFromURI(uri) };
+  });
+};
+
+const getImagesDepicting = async subclassId => {
+  const query = `
+SELECT distinct ?image {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    ?image wdt:P180 wd:${subclassId}.
+ }
+LIMIT 1000
+`;
+  const json = await fromWikidata(query, `imagesof-${subclassId}.xml`);
+
+  const results = json.sparql.results.reduce((acc, r) => {
+    return [...acc, ...r.result];
+  }, []);
+
+  return results.map(x => {
+    const uri = x.binding.filter(y => y["uri"])[0].uri[0];
+    return uri;
+  });
+};
+
+const augmentSubclassWithOptions = async subclass => {
+  return { ...subclass, images: await getImagesDepicting(subclass.id) };
+};
+
 const main = async () => {
   if (action === "quizzes") {
     prettyPrint(await fetchQuizList());
@@ -107,6 +185,28 @@ const main = async () => {
     const quizzes = JSON.parse(fs.readFileSync("littlequizzes.json"));
 
     prettyPrint(await Promise.all(quizzes.map(augmentQuizWithResults)));
+  }
+  if (action === "pickyourfavorite") {
+    const ANIMAL = "Q729";
+    const FOOD = "Q2095";
+
+    parseString(fs.readFileSync("cache/imagesof-Q13360264.xml"));
+    //prettyLog(await getImagesDepicting("Q13360264"));
+    //process.exit(0);
+
+    const subclasses = [
+      ...[
+        ...(await fetchSubclasses(ANIMAL)),
+        ...(await fetchSubSubclasses(ANIMAL))
+      ].map(x => ({ ...x, superclass: "animal" })),
+      ...[
+        ...(await fetchSubclasses(FOOD)),
+        ...(await fetchSubSubclasses(FOOD))
+      ].map(x => ({ ...x, superclass: "food" }))
+    ];
+    prettyPrint(await Promise.all(subclasses.map(augmentSubclassWithOptions)));
+
+    //prettyPrint(await fetchAnimalImages());
   }
 };
 
