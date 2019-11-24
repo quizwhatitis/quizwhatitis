@@ -9,7 +9,7 @@
     [ ] Selection
     [ ] Picture to go along with choice
   [ ] Result
-    [ ] 1. Tells you what you are
+    [x] 1. Tells you what you are
     [ ] 2. Describes what you are
     [ ] 3. Picture of what you are if possible.
 [ ] Adding voting options to the home page
