@@ -169,8 +169,8 @@ const style = (
 .card .bottom {
   padding: 5px;
   border-top: 1px solid #9b9b9b;
-  height: 75px;
-  line-height: 75px;
+  height: 60px;
+  line-height: 80px;
 }
 
 .card .bottom h3 {
