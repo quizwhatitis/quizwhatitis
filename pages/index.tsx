@@ -194,6 +194,14 @@ const style = (
   color: ${colors.textColor};
   font-size: 16px;
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  .card h3 {
+    font-size: 10px;
+  }
+}
+
 .card p {
   margin: 0;
   padding: 12px 0 0;
