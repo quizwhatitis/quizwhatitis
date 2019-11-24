@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Nav from "../../components/nav";
+import Vote from "../../components/vote";
 import fetch from "isomorphic-unfetch";
 import config from "../../config";
 
@@ -34,6 +35,7 @@ function renderPage(children) {
       <Head>
         <title>Quiz what it is</title>
         <link rel="icon" href="/favicon.ico" />
+        <Vote/>
       </Head>
 
       <Nav />
