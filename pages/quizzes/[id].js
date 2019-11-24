@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../../components/nav'
 import fetch from 'isomorphic-unfetch'
+import config from '../../config'
 
 function Quiz ({questions}) {
   const {title, answers} = questions[0]
@@ -36,7 +37,7 @@ Quiz.getInitialProps = async ({ req }) => {
   // TODO req doesn't work?
   // const quiz = await getQuiz(req.query)
   const id = 1;
-  const response = await fetch(`http://localhost:3000/api/quizzes/${id}`)
+  const response = await fetch(`${config.serverUri}/api/quizzes/${id}`)
   return response.json();
 }
 
