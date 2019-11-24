@@ -1,51 +1,55 @@
-import React from 'react'
-import Head from 'next/head'
-import Nav from '../../components/nav'
-import fetch from 'isomorphic-unfetch'
-import config from '../../config'
+import React from "react";
+import Head from "next/head";
+import Nav from "../../components/nav";
+import fetch from "isomorphic-unfetch";
+import config from "../../config";
 
 function QuizIntro({ itemName, handleBegin }) {
-  return <>
-    <h1 className="title">
-      Let's see what sort of { itemName } you are!
-    </h1>
-    <div className="row">
-      <a onClick={handleBegin} className="card">
-        <h3>Begin!</h3>
-      </a>
-    </div>
-  </>
+  return (
+    <>
+      <h1 className="title">Let's see what sort of {itemName} you are!</h1>
+      <div className="row">
+        <a onClick={handleBegin} className="card">
+          <h3>Begin!</h3>
+        </a>
+      </div>
+    </>
+  );
 }
 
 function QuizResult({ result, answers }) {
-  return <>
-    <h1 className="title">
-      You are a:
-    </h1>
-    <div className="row">
+  return (
+    <>
+      <h1 className="title">You are a:</h1>
+      <div className="row">
         <h2>{result}</h2>
-    </div>
-    <ul>
-      {Object.keys(answers).map((q) => (
-        <li key={q}>{q}: {answers[q]}</li>
-      ))}
-    </ul>
-  </>
+      </div>
+      <ul>
+        {Object.keys(answers).map(q => (
+          <li key={q}>
+            {q}: {answers[q]}
+          </li>
+        ))}
+      </ul>
+    </>
+  );
 }
 
 function renderPage(children) {
-  return <div>
-    <Head>
-      <title>Quiz what it is</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+  return (
+    <div>
+      <Head>
+        <title>Quiz what it is</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-    <Nav />
+      <Nav />
 
-    <div className="hero">{children}</div>
+      <div className="hero">{children}</div>
 
-    {style}
-  </div>
+      {style}
+    </div>
+  );
 }
 
 class Quiz extends React.Component {
@@ -60,34 +64,41 @@ class Quiz extends React.Component {
   }
 
   handleBegin = () => {
-    this.setState({ isIntro: false })
+    this.setState({ isIntro: false });
   };
 
   handleAnswer = (page, answer) => () => {
-    const { quiz: {id}, questions } = this.props;
+    const {
+      quiz: { id },
+      questions
+    } = this.props;
     const question = questions[page];
-    const nextQuestion = questions[page+1];
+    const nextQuestion = questions[page + 1];
 
     return this.setState(
-      (prevState) => {
+      prevState => {
         return {
           answers: {
             ...prevState.answers,
             [question]: answer
           },
-          page: page+1
-        }
+          page: page + 1
+        };
       },
       async () => {
         if (nextQuestion) return;
-        console.log('👋 hi ilia')
+        console.log("👋 hi ilia");
         const { answers } = this.state;
-        const body = JSON.stringify({answers})
-        const res = await fetch(`${config.serverUri}/api/quizzes/${id}`, { method: 'POST' , body})
+        const body = JSON.stringify({ answers });
+        const res = await fetch(`${config.serverUri}/api/quizzes/${id}`, {
+          method: "POST",
+          body
+        });
         const result = (await res.json()).result;
-        console.log('👀', result)
-        this.setState({ result })
-      });
+        console.log("👀", result);
+        this.setState({ result });
+      }
+    );
   };
 
   render() {
@@ -95,30 +106,37 @@ class Quiz extends React.Component {
     const { isIntro, result, page } = this.state;
 
     if (!questions) {
-      return <div>Not found</div>
+      return <div>Not found</div>;
     }
 
     if (isIntro) {
-      return renderPage(<QuizIntro {...quiz} handleBegin={this.handleBegin}/>);
+      return renderPage(<QuizIntro {...quiz} handleBegin={this.handleBegin} />);
     }
 
     if (result) {
-      return renderPage(<QuizResult {...quiz} result={result} answers={this.state.answers} />);
+      return renderPage(
+        <QuizResult {...quiz} result={result} answers={this.state.answers} />
+      );
     }
 
     const question = questions[page];
 
     return renderPage(
       <div key={question}>
-        <h1 className="title">{question}</h1>
+        <h1 className="title">{question.instructions}</h1>
 
         <div className="row">
-          <a onClick={this.handleAnswer(page, 'yes')} className="card" key="yes">
-            <h3>Yes</h3>
-          </a>
-          <a onClick={this.handleAnswer(page, 'no')} className="card" key="no">
-            <h3>No</h3>
-          </a>
+          {question.options.map((option, i) => {
+            return (
+              <a
+                onClick={this.handleAnswer(page, option.label)}
+                className="card"
+                key={`${i}`}
+              >
+                <h3>{option.label}</h3>
+              </a>
+            );
+          })}
         </div>
       </div>
     );
@@ -131,13 +149,14 @@ Quiz.getInitialProps = async ({ req, query: { id } }) => {
   // const quiz = await getQuiz(req.query)
   // const id = 1;
   // console.log(req);
-  const response = await fetch(`${config.serverUri}/api/quizzes/${id}`)
+  const response = await fetch(`${config.serverUri}/api/quizzes/${id}`);
   return response.json();
-}
+};
 
 export default Quiz;
 
-const style = <style>{`
+const style = (
+  <style>{`
 .hero {
   width: 100%;
   color: #333;
@@ -183,3 +202,4 @@ const style = <style>{`
   color: #333;
 }
 `}</style>
+);
