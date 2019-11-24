@@ -57,14 +57,13 @@ function renderPage(children) {
       <Head>
         <title>Quiz what it is</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="/styles.css" />
         <Vote />
       </Head>
 
       <Nav />
 
       <div className="hero">{children}</div>
-
-      {style}
     </div>
   );
 }
@@ -182,62 +181,3 @@ Quiz.getInitialProps = async ({ req, query: { id } }) => {
 };
 
 export default Quiz;
-
-const style = (
-  <style>{`
-.hero {
-  width: 100%;
-  color: #333;
-}
-.title {
-  margin: 0;
-  width: 100%;
-  padding-top: 80px;
-  line-height: 1.15;
-  font-size: 48px;
-}
-.title,
-.description {
-  text-align: center;
-}
-.row {
-  max-width: 880px;
-  margin: 80px auto 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.card {
-  padding: 18px;
-  width: 250px;
-  text-align: center;
-  text-decoration: none;
-  color: #434343;
-  border: 1px solid #9b9b9b;
-}
-.cardImage {
-width: 240px; margin: auto;
-}
-.card:hover {
-  border-color: #067df7;
-  filter: invert(30%);
-}
-.card h3 {
-  margin: 0;
-  color: #067df7;
-  font-size: 18px;
-}
-.card p {
-  margin: 0;
-  padding: 12px 0 0;
-  font-size: 13px;
-  color: #333;
-}
-.questionImageDiv {
-text-align: center;
-}
-.questionImage{
-width: 400px;
-}
-`}</style>
-);
