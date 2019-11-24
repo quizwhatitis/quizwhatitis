@@ -35,6 +35,11 @@ async function getQuestions(id) {
   ];
 }
 
-async function recordQuizResult(req) {
-
+async function recordQuizResult({query: { id, answers }}) {
+  console.log('sgsdlfsdfljkxd', id, answers);
+  const { possible_results } = quizzes.find(q => q.id === id);
+  const n = possible_results.length;
+  const choice = Math.floor(Math.random() * 10000) % n;
+  const result = possible_results[choice].title
+  return { result };
 }
