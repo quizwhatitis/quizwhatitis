@@ -9,6 +9,7 @@ import PersonalityMap from "../../../components/personalitymap";
 function QuizResult({ title, extract, imageUrl, traits, otherTitles }) {
   return (
     <div>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       <Head>
         <title>Quiz what it is</title>
         <link rel="icon" href="/favicon.ico" />
@@ -25,7 +26,8 @@ function QuizResult({ title, extract, imageUrl, traits, otherTitles }) {
               Congratulations! You have the personality of {title}
               <p>
                 <a class="twitter-share-button"
-                  target="_blank"
+                  size="large"
+                  data-size="large"
                   href={'https://twitter.com/intent/tweet' +
                     '?hashtags=quizwhatitis' +
                     '&url=' +
