@@ -62,8 +62,6 @@ function getQuizUri({ id }) {
   return "/quizzes/" + id;
 }
 
-const listPrefix = "list of";
-const pluralSuffix = "s";
 const singularReplacements = [
     ['species', 'species'],
     ['deities', 'deity'],
@@ -85,10 +83,10 @@ function makeSingular (s) {
     }, null) || s
 }
 function getQuizName({ title }) {
-  title = title.replace(/by name$/, "")
-  if (title.toLowerCase().startsWith(listPrefix)) {
-    title = title.slice(listPrefix.length + 1);
-  }
+  title = title
+    .replace(/by name$/, "")
+    .replace(/list of /i, "")
+    .replace(/lists of /i, "")
 
   title = makeSingular(title)
 
