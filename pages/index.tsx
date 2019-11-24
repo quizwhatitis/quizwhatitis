@@ -37,8 +37,9 @@ function Home({ quizzes }) {
   );
 }
 
-Home.getInitialProps = async ({ req }) => {
+Home.getInitialProps = async (opts) => {
   // we can load stuff from the DB/fs here
+  console.log(opts)
   const response = await fetch(`http://localhost:3000/api/quizzes`);
   return response.json();
 };

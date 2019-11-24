@@ -15,6 +15,9 @@
     "xml2js": "^0.4.22"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "@types/node": "^12.12.12",
+    "@types/react": "^16.9.13",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.2"
   }
 }
