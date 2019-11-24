@@ -5,12 +5,30 @@ import Vote from "../components/vote";
 import fetch from "isomorphic-unfetch";
 import config from '../config'
 
-function Home({ quizzes }) {
-  const quizLinks = quizzes.map(({ title, id }) => (
-    <li key={id}>
-      <a href={getQuizUri({ id })}>{getQuizName({ title })}</a>
-    </li>
-  ));
+function Home({ featuredQuizzes, randomQuizzes }) {
+  const chunkList = (list, chunkSize) => {
+      const ret = []
+      const l = [...list]
+      while (l.length) {
+          ret.push(l.splice(0, chunkSize))
+      }
+      return ret
+  }
+  const quizLinks = (quizzes) => chunkList(quizzes, 3).map(chunk => {
+      return (
+        <div className="row">{
+          chunk.map(({ title, id }) => (
+            <a
+              href={getQuizUri({ id })} className='card'
+            ><h3>{getQuizName({ title })}</h3></a>
+          ))
+       }</div>
+  )
+  })
+
+
+  const featuredQuizLinks = quizLinks(featuredQuizzes)
+  const randomQuizLinks = quizLinks(randomQuizzes)
 
   return (
     <div>
@@ -24,21 +42,18 @@ function Home({ quizzes }) {
 
       <div className="hero">
         <h1 className="title">Quiz what it is</h1>
-        <p className="description">Personality quizzes for everything!</p>
-
-        <div className="row">
-          <ul>{quizLinks}</ul>
-        </div>
+        <p className="description">Reach a deeper understanding of your true self, through our thousands of personality quizzes.</p>
       </div>
-
+      <h2>Featured Quizzes</h2>
+       {featuredQuizLinks}
+      <h2>Random Quizzes</h2>
+       {randomQuizLinks}
       {style}
     </div>
   );
 }
 
 Home.getInitialProps = async (opts) => {
-  // we can load stuff from the DB/fs here
-  console.log(opts)
   const response = await fetch(`${config.serverUri}/api/quizzes`);
   return response.json();
 };
@@ -68,7 +83,9 @@ export default Home;
 const style = (
   <style>{`
 .hero {
-  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
   color: #333;
 }
 .title {
@@ -84,7 +101,7 @@ const style = (
 }
 .row {
   max-width: 880px;
-  margin: 80px auto 40px;
+  margin: 0 auto 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -110,6 +127,10 @@ const style = (
   padding: 12px 0 0;
   font-size: 13px;
   color: #333;
+}
+h2 {
+
+text-align: center;
 }
 `}</style>
 );

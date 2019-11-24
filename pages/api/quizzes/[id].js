@@ -1,5 +1,4 @@
-import quizzes from "../../../littlequizzesfull";
-import pickyourfavorite from "../../../pickyourfavorite";
+import quizzes from "../../../quizzes_with_results_and_answers";
 import { createHash } from "crypto";
 import { readFileSync } from "fs";
 
@@ -25,27 +24,6 @@ async function getQuiz({ query: { id } }) {
   }
 
   return { quiz, questions: quiz.questions };
-}
-
-const pickYourFavoriteToQuestion = x => ({
-  instructions: `Pick your favorite ${x.subSubclassName}`,
-  options: x.images.map(x => ({ image: x })).slice(0, 6)
-});
-
-async function getQuestions(id) {
-  return [
-    pickYourFavoriteToQuestion(pickyourfavorite[19]),
-    {
-      instructions: "Waffles?",
-      options: [{ label: "yes" }, { label: "no" }]
-    },
-    { instructions: "Space?", options: [{ label: "yes" }, { label: "no" }] },
-    { instructions: "Tall?", options: [{ label: "yes" }, { label: "no" }] },
-    {
-      instructions: "Would Hulk beat Thor?",
-      options: [{ label: "yes" }, { label: "no" }]
-    }
-  ];
 }
 
 async function recordQuizResult({ body, query: { id } }) {

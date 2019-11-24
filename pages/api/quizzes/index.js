@@ -1,16 +1,22 @@
-import quizzes from '../../../littlequizzes'
+import quizzes from "../../../quizzes";
 
 export default (req, res) => {
-  // TODO: return a list of quizzes here
+  const featuredQuizzes = quizzes.filter(
+    x =>
+      [
+        "Q16322", // Cryptid
+        "Q40742", // Poker hand
+        "Q236209" // Pokemon species
+      ].indexOf(x.id) !== -1
+  );
   const body = {
-    quizzes: quizzes.map(({title, uri}) => ({
-      id: uri.split('/').pop(),
-      uri,
-      title,
-    }))
-  }
+    featuredQuizzes,
+    randomQuizzes: [...quizzes]
+      .sort((x, y) => Math.random() - Math.random())
+      .slice(0, 10)
+  };
 
-  res.setHeader('Content-Type', 'application/json')
-  res.statusCode = 200
-  res.end(JSON.stringify(body))
-}
+  res.setHeader("Content-Type", "application/json");
+  res.statusCode = 200;
+  res.end(JSON.stringify(body));
+};
