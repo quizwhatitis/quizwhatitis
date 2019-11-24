@@ -15,6 +15,7 @@ const withCache = async (name, fetchText) => {
   } catch (e) {
     console.error(`could not find cache in ${path}, sending query`);
     const res = await fetchText();
+    await parseString(res);
     fs.writeFileSync(path, res);
     return res;
   }
@@ -104,37 +105,14 @@ LIMIT 1000
     );
 };
 
-const fetchSubSubclasses = async classId => {
+const fetchSubSubclasses = async (classId, superclass) => {
   const query = `
-SELECT distinct ?subclass ?subclassLabel {
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-    ?intclass wdt:P279 wd:${classId}.
-    ?subclass wdt:P279 ?intclass.
-    ?image wdt:P180 ?subclass.
- }
-LIMIT 1000
-`;
-  const json = await fromWikidata(query, `subsubclasses-${classId}.xml`);
-
-  const results = json.sparql.results.reduce((acc, r) => {
-    return [...acc, ...r.result];
-  }, []);
-
-  return results.map(x => {
-    const uri = x.binding.filter(y => y["$"].name === "subclass")[0].uri[0];
-    const subclassName = x.binding.filter(
-      y => y["$"].name === "subclassLabel"
-    )[0].literal[0]["_"];
-    return { uri, subclassName, id: idFromURI(uri) };
-  });
-};
-
-const fetchSubclasses = async classId => {
-  const query = `
-SELECT distinct ?subclass ?subclassLabel {
+SELECT distinct ?subSubclassLabel ?subSubclass {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
     ?subclass wdt:P279 wd:${classId}.
-    ?image wdt:P180 ?subclass.
+    ?subSubclass wdt:P279 ?subclass.
+    ?instance wdt:P31 ?subSubclass.
+    ?instance wdt:P18 ?image.
  }
 LIMIT 1000
 `;
@@ -145,23 +123,24 @@ LIMIT 1000
   }, []);
 
   return results.map(x => {
-    const uri = x.binding.filter(y => y["$"].name === "subclass")[0].uri[0];
-    const subclassName = x.binding.filter(
-      y => y["$"].name === "subclassLabel"
+    const uri = x.binding.filter(y => y["$"].name === "subSubclass")[0].uri[0];
+    const subSubclassName = x.binding.filter(
+      y => y["$"].name === "subSubclassLabel"
     )[0].literal[0]["_"];
-    return { uri, subclassName, id: idFromURI(uri) };
+    return { uri, subSubclassName, id: idFromURI(uri), superclass };
   });
 };
 
-const getImagesDepicting = async subclassId => {
+const getImagesOfSubSubclass = async subSubclassId => {
   const query = `
 SELECT distinct ?image {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-    ?image wdt:P180 wd:${subclassId}.
+    ?instance wdt:P31 wd:${subSubclassId}.
+    ?instance wdt:P18 ?image.
  }
 LIMIT 1000
 `;
-  const json = await fromWikidata(query, `imagesof-${subclassId}.xml`);
+  const json = await fromWikidata(query, `imagesof-${subSubclassId}.xml`);
 
   const results = json.sparql.results.reduce((acc, r) => {
     return [...acc, ...r.result];
@@ -173,8 +152,11 @@ LIMIT 1000
   });
 };
 
-const augmentSubclassWithOptions = async subclass => {
-  return { ...subclass, images: await getImagesDepicting(subclass.id) };
+const augmentSubSubclassWithOptions = async subSubclass => {
+  return {
+    ...subSubclass,
+    images: await getImagesOfSubSubclass(subSubclass.id)
+  };
 };
 
 const main = async () => {
@@ -190,21 +172,13 @@ const main = async () => {
     const ANIMAL = "Q729";
     const FOOD = "Q2095";
 
-    parseString(fs.readFileSync("cache/imagesof-Q13360264.xml"));
-    //prettyLog(await getImagesDepicting("Q13360264"));
-    //process.exit(0);
-
     const subclasses = [
-      ...[
-        ...(await fetchSubclasses(ANIMAL)),
-        ...(await fetchSubSubclasses(ANIMAL))
-      ].map(x => ({ ...x, superclass: "animal" })),
-      ...[
-        ...(await fetchSubclasses(FOOD)),
-        ...(await fetchSubSubclasses(FOOD))
-      ].map(x => ({ ...x, superclass: "food" }))
+      ...(await fetchSubSubclasses(ANIMAL, "animal")),
+      ...(await fetchSubSubclasses(FOOD, "food"))
     ];
-    prettyPrint(await Promise.all(subclasses.map(augmentSubclassWithOptions)));
+    prettyPrint(
+      await Promise.all(subclasses.map(augmentSubSubclassWithOptions))
+    );
 
     //prettyPrint(await fetchAnimalImages());
   }
