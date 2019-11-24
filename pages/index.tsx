@@ -54,6 +54,7 @@ function Home({ featuredQuizzes, randomQuizzes }) {
       <Head>
         <title>Quiz what it is</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=B612&display=swap" rel="stylesheet" />
         <Vote/>
       </Head>
 
@@ -123,6 +124,7 @@ const style = (
   <style>{`
   body {
     background-color: ${colors.backgroundColor};
+    font-family: 'B612', sans-serif;
   }
 .hero {
   max-width: 800px;
