@@ -88,7 +88,6 @@ class Quiz extends React.Component {
       quiz: { id },
       questions
     } = this.props;
-    const question = questions[page];
     const nextQuestion = questions[page + 1];
 
     return this.setState(
@@ -96,7 +95,7 @@ class Quiz extends React.Component {
         return {
           answers: {
             ...prevState.answers,
-            [question]: answer
+            [page]: answer
           },
           page: page + 1
         };
@@ -152,7 +151,7 @@ class Quiz extends React.Component {
           {question.options.map((option, i) => {
             return (
               <a
-                onClick={this.handleAnswer(page, option.label)}
+                onClick={this.handleAnswer(page, i)}
                 className="card"
                 key={`${i}`}
               >
