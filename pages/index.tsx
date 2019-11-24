@@ -64,16 +64,34 @@ function getQuizUri({ id }) {
 
 const listPrefix = "list of";
 const pluralSuffix = "s";
+const singularReplacements = [
+    ['species', 'species'],
+    ['deities', 'deity'],
+    ['cies', 'cy'],
+    ['aries', 'ary'],
+    ['ies', 'y'],
+    ['ones', 'one'],
+    ['ines', 'ine'],
+    ['es', ''],
+    ['s', '']
+]
+function makeSingular (s) {
+    return singularReplacements.reduce((acc, [pattern, sub]) => {
+        if (acc) { return acc }
+        if (s.endsWith(pattern)) {
+            return s.slice(0, -pattern.length) + sub;
+        }
+        return null
+    }, null) || s
+}
 function getQuizName({ title }) {
   title = title.toLowerCase();
-
+  title = title.replace(/by name$/, "")
   if (title.startsWith(listPrefix)) {
     title = title.slice(listPrefix.length + 1);
   }
 
-  if (title.endsWith(pluralSuffix)) {
-    title = title.slice(0, -pluralSuffix.length);
-  }
+  title = makeSingular(title)
 
   return `What ${title} are you?`;
 }
