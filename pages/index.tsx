@@ -4,6 +4,7 @@ import Nav from "../components/nav";
 import Vote from "../components/vote";
 import fetch from "isomorphic-unfetch";
 import config from '../config'
+import {singular} from 'pluralize'
 
 function Home({ featuredQuizzes, randomQuizzes }) {
   const chunkList = (list, chunkSize) => {
@@ -62,33 +63,23 @@ function getQuizUri({ id }) {
   return "/quizzes/" + id;
 }
 
-const singularReplacements = [
-    ['species', 'species'],
-    ['deities', 'deity'],
-    ['cies', 'cy'],
-    ['aries', 'ary'],
-    ['ies', 'y'],
-    ['ones', 'one'],
-    ['ines', 'ine'],
-    ['es', ''],
-    ['s', '']
-]
-function makeSingular (s) {
-    return singularReplacements.reduce((acc, [pattern, sub]) => {
-        if (acc) { return acc }
-        if (s.endsWith(pattern)) {
-            return s.slice(0, -pattern.length) + sub;
-        }
-        return null
-    }, null) || s
-}
 function getQuizName({ title }) {
   title = title
-    .replace(/by name$/, "")
     .replace(/list of /i, "")
-    .replace(/lists of /i, "")
+    .replace(/lists of /i, "");
 
-  title = makeSingular(title)
+  const lastIndexOfBy = title.lastIndexOf(' by ');
+  if (lastIndexOfBy !== -1) title = title.slice(0, lastIndexOfBy);
+
+  title = title.replace(/ and /i, " or ");
+
+  title = title
+    .split(" ")
+    .map((word, _, {length}) => {
+      if (word.match(/^[A-Z]/) && length > 1) return word;
+      return singular(word)
+    })
+    .join(" ");
 
   return `What ${title} are you?`;
 }
