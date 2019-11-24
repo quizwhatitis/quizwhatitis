@@ -31,8 +31,14 @@ function Home({ featuredQuizzes, randomQuizzes }) {
             <a
               href={getQuizUri({ id })}
               className='card'
-              style={quizStyle(image)}
-            ><h3>{getQuizName({ id, title })}</h3></a>
+            ><div>
+              <div className='top'>
+                <img src={image} />
+              </div>
+              <div className='bottom'>
+                <h3>{getQuizName({id, title})}</h3>
+              </div>
+            </div></a>
           ))
         }</div>
   )
@@ -139,20 +145,46 @@ const style = (
   justify-content: space-around;
 }
 .card {
-  padding: 18px 18px 24px;
   width: 220px;
   text-align: left;
   text-decoration: none;
   color: #434343;
   border: 1px solid #9b9b9b;
 }
+.card > * {
+  text-align: center;
+}
+
+.card .top {
+  height: 125px;
+}
+
+.card .top img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 80%;
+  max-height: 100px;
+}
+
+.card .bottom {
+  padding: 5px;
+  border-top: 1px solid #9b9b9b;
+  height: 75px;
+  line-height: 75px;
+}
+
+.card .bottom h3 {
+  display: inline-block;
+  line-height: normal;
+}
+
 .card:hover {
   border-color: #067df7;
 }
 .card h3 {
   margin: 0;
   color: #067df7;
-  font-size: 18px;
+  font-size: 16px;
 }
 .card p {
   margin: 0;
