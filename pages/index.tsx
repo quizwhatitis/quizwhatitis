@@ -4,6 +4,7 @@ import Nav from "../components/nav";
 import Vote from "../components/vote";
 import fetch from "isomorphic-unfetch";
 import config from '../config'
+import colors from '../colors'
 import {singular} from 'pluralize'
 
 function quizStyle(image) {
@@ -120,11 +121,14 @@ export default Home;
 
 const style = (
   <style>{`
+  body {
+    background-color: ${colors.backgroundColor};
+  }
 .hero {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  color: #333;
+  color: ${colors.textColor};
 }
 .title {
   margin: 0;
@@ -148,8 +152,8 @@ const style = (
   width: 220px;
   text-align: left;
   text-decoration: none;
-  color: #434343;
-  border: 1px solid #9b9b9b;
+  border: 2px solid #9b9b9b;
+  border-radius: 5px;
 }
 .card > * {
   text-align: center;
@@ -157,6 +161,7 @@ const style = (
 
 .card .top {
   height: 125px;
+  background-color: ${colors.backgroundImageColor};
 }
 
 .card .top img {
@@ -171,6 +176,7 @@ const style = (
   border-top: 1px solid #9b9b9b;
   height: 60px;
   line-height: 80px;
+  background-color: ${colors.backgroundTextColor};
 }
 
 .card .bottom h3 {
@@ -183,7 +189,7 @@ const style = (
 }
 .card h3 {
   margin: 0;
-  color: #067df7;
+  color: ${colors.textColor};
   font-size: 16px;
 }
 .card p {
