@@ -1,6 +1,6 @@
-[ ] Going from list article title to quiz name.
+[x] Going from list article title to quiz name.
 [ ] Generating questions/building a corpus of questions (binary yes/no) (extra credit selection)
-[ ] The home page (navigate to various quizzes)
+[x] The home page (navigate to various quizzes)
 [Conner] Frontend for quiz page (has questions, tells you your result)
   [ ] Intro
     [ ] Details from the wikipedia article?
