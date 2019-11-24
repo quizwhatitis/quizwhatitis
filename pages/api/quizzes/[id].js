@@ -1,3 +1,5 @@
+import quizzes from '../../../littlequizzeswithpossibleresults'
+
 export default async (req, res) => {
   let body
   if (req.method === 'POST') {
@@ -13,21 +15,24 @@ export default async (req, res) => {
   return
 }
 
-async function getQuiz({id}) {
-  return {
-    id,
-    questions: [
-      {
-        title: '1. How foamy are you?',
-        answers: [
-          {text: 'No foam at all'},
-          {text: 'A little bit bubbly'},
-          {text: 'I am in the sweet spot'},
-          {text: 'Pure goodness'},
-        ],
-      },
-    ]
+async function getQuiz({query: { id }}) {
+  const quiz = quizzes.find(q => q.id === id);
+  if (!quiz) {
+    return {};
   }
+
+  const questions = await getQuestions(id);
+  return { quiz, questions }
+}
+
+async function getQuestions(id) {
+  return [
+    'Faster than a speeding train?',
+    'Waffles?',
+    'Space?',
+    'Tall?',
+    'Would Hulk beat Thor?'
+  ];
 }
 
 async function recordQuizResult(req) {

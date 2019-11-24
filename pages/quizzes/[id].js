@@ -4,14 +4,42 @@ import Nav from '../../components/nav'
 import fetch from 'isomorphic-unfetch'
 import config from '../../config'
 
-function Quiz ({questions}) {
-  const {title, answers} = questions[0]
+function QuizIntro({ itemName, handleBegin }) {
+  return <>
+    <h1 className="title">
+      Let's see what sort of { itemName } you are!
+    </h1>
+    <div className="row">
+      <a onClick={handleBegin} className="card">
+        <h3>Begin!</h3>
+      </a>
+    </div>
+  </>
+}
 
-  const answerCards = answers.map(({text}, id) =>
-  <a href={"#" + id} className="card" key={id}>
-    <h3>{text}</h3>
-  </a>)
+function pickResult(results) {
+  const n = results.length;
+  const choice = Math.floor(Math.random() * 10000) % n;
+  return results[choice].title;
+};
 
+function QuizResult({ possible_results, answers }) {
+  return <>
+    <h1 className="title">
+      You are a:
+    </h1>
+    <div className="row">
+        <h2>{pickResult(possible_results)}</h2>
+    </div>
+    <ul>
+      {Object.keys(answers).map((q) => (
+        <li key={q}>{q}: {answers[q]}</li>
+      ))}
+    </ul>
+  </>
+}
+
+function renderPage(children) {
   return <div>
     <Head>
       <title>Quiz what it is</title>
@@ -20,23 +48,85 @@ function Quiz ({questions}) {
 
     <Nav />
 
-    <div className="hero">
-      <h1 className="title">{title}</h1>
-
-      <div className="row">
-        {answerCards}
-      </div>
-    </div>
+    <div className="hero">{children}</div>
 
     {style}
   </div>
 }
 
-Quiz.getInitialProps = async ({ req }) => {
+class Quiz extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isIntro: true,
+      finished: false,
+      page: 0,
+      answers: {}
+    };
+  }
+
+  handleBegin = () => {
+    this.setState({ isIntro: false })
+  };
+
+  handleAnswer = (page, answer) => () => {
+    const { questions } = this.props;
+    const question = questions[page];
+    const nextQuestion = questions[page+1];
+
+    this.setState((prevState) => {
+      return {
+        answers: {
+          ...prevState.answers,
+          [question]: answer
+        },
+        page: page+1,
+        finished: !nextQuestion
+      }
+    });
+  };
+
+  render() {
+    const { quiz, questions } = this.props;
+    const { isIntro, finished, page } = this.state;
+
+    if (!questions) {
+      return <div>Not found</div>
+    }
+
+    if (isIntro) {
+      return renderPage(<QuizIntro {...quiz} handleBegin={this.handleBegin}/>);
+    }
+
+    if (finished) {
+      return renderPage(<QuizResult {...quiz} answers={this.state.answers} />);
+    }
+
+    const question = questions[page];
+
+    return renderPage(
+      <div key={question}>
+        <h1 className="title">{question}</h1>
+
+        <div className="row">
+          <a onClick={this.handleAnswer(page, 'yes')} className="card" key="yes">
+            <h3>Yes</h3>
+          </a>
+          <a onClick={this.handleAnswer(page, 'no')} className="card" key="no">
+            <h3>No</h3>
+          </a>
+        </div>
+      </div>
+    );
+  }
+}
+
+Quiz.getInitialProps = async ({ req, query: { id } }) => {
   // we can load stuff from the DB/fs here
   // TODO req doesn't work?
   // const quiz = await getQuiz(req.query)
-  const id = 1;
+  // const id = 1;
+  // console.log(req);
   const response = await fetch(`${config.serverUri}/api/quizzes/${id}`)
   return response.json();
 }
