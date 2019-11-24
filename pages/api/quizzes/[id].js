@@ -62,7 +62,7 @@ const allPersonalityTraits = [
   "pushoverability",
   "weakness",
   "pure idiocy",
-  "snobishness",
+  "snobbishness",
   "tastefulness",
   "superficiality"
 ];
