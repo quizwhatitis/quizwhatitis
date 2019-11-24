@@ -6,6 +6,15 @@ import fetch from "isomorphic-unfetch";
 import config from '../config'
 import {singular} from 'pluralize'
 
+function quizStyle(image) {
+  const url = image || 'http://placekitten.com/200/300';
+  return {
+    backgroundImage: `url('${url}')`,
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat'
+  };
+}
+
 function Home({ featuredQuizzes, randomQuizzes }) {
   const chunkList = (list, chunkSize) => {
       const ret = []
@@ -18,12 +27,14 @@ function Home({ featuredQuizzes, randomQuizzes }) {
   const quizLinks = (quizzes) => chunkList(quizzes, 3).map(chunk => {
       return (
         <div className="row">{
-          chunk.map(({ title, id }) => (
+          chunk.map(({ title, id, image }) => (
             <a
-              href={getQuizUri({ id })} className='card'
+              href={getQuizUri({ id })}
+              className='card'
+              style={quizStyle(image)}
             ><h3>{getQuizName({ title })}</h3></a>
           ))
-       }</div>
+        }</div>
   )
   })
 
