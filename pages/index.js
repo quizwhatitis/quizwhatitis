@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import fetch from 'isomorphic-unfetch'
 
 function Home ({quizzes}) {
   const quizLinks = quizzes.map(({title, id}) => (
