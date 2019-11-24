@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Nav from "../components/nav";
 import fetch from "isomorphic-unfetch";
+import config from '../config'
 
 function Home({ quizzes }) {
   const quizLinks = quizzes.map(({ title, id }) => (
@@ -40,12 +41,12 @@ function Home({ quizzes }) {
 Home.getInitialProps = async (opts) => {
   // we can load stuff from the DB/fs here
   console.log(opts)
-  const response = await fetch(`http://localhost:3000/api/quizzes`);
+  const response = await fetch(`${config.serverUri}/api/quizzes`);
   return response.json();
 };
 
 function getQuizUri({ id }) {
-  return "./quizzes/" + id;
+  return "/quizzes/" + id;
 }
 
 const listPrefix = "list of";
