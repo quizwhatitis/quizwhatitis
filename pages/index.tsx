@@ -32,7 +32,7 @@ function Home({ featuredQuizzes, randomQuizzes }) {
               href={getQuizUri({ id })}
               className='card'
               style={quizStyle(image)}
-            ><h3>{getQuizName({ title })}</h3></a>
+            ><h3>{getQuizName({ id, title })}</h3></a>
           ))
         }</div>
   )
@@ -74,7 +74,7 @@ function getQuizUri({ id }) {
   return "/quizzes/" + id;
 }
 
-function relationship() {
+function relationship(id) {
   const r = [
     'are you',
     'best describes you',
@@ -86,10 +86,10 @@ function relationship() {
     'has really like been there, ya\'know',
     'best matches your personality',
   ];
-  return r[Math.floor(Math.random()*r.length)];
+  return r[parseInt(id.substring(1)) % r.length];
 }
 
-function getQuizName({ title }) {
+function getQuizName({ id, title }) {
   title = title
     .replace(/list of /i, "")
     .replace(/lists of /i, "");
@@ -107,7 +107,7 @@ function getQuizName({ title }) {
     })
     .join(" ");
 
-  return `What ${title} ${relationship()}?`;
+  return `What ${title} ${relationship(id)}?`;
 }
 
 export default Home;
