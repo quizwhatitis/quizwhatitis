@@ -119,7 +119,7 @@ class Quiz extends React.Component {
     const { isIntro, result, page } = this.state;
 
     if (!questions) {
-      return <div>Not found</div>;
+      return renderPage(<div>Not found</div>);
     }
 
     if (isIntro) {
@@ -135,7 +135,7 @@ class Quiz extends React.Component {
     const question = questions[page];
 
     if (!question) {
-      return null;
+      return renderPage();
     }
 
     return renderPage(
