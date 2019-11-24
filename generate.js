@@ -3,6 +3,7 @@ const { promisify } = require("util");
 const { createHash } = require("crypto");
 const parseString = promisify(require("xml2js").parseString);
 const fs = require("fs");
+const { intFromSeed, randomFromList } = require("./util");
 
 const prettyPrint = x => console.log(JSON.stringify(x, null, 2));
 const prettyLog = x => console.error(JSON.stringify(x, null, 2));
@@ -55,14 +56,19 @@ LIMIT 1000
   const results = result.sparql.results.reduce((acc, r) => {
     return [...acc, ...r.result];
   }, []);
-  const list = results.map(x => {
-    const uri = x.binding.filter(y => y["uri"])[0].uri[0];
-    const title = x.binding.filter(y => y["literal"])[0].literal[0]["_"];
-    const image = x.binding
-      .filter(y => y["$"].name === "image")
-      .map(y => y.uri[0])[0];
-    return { uri, title, image, id: idFromURI(uri) };
-  });
+  const list = results
+    .map(x => {
+      const uri = x.binding.filter(y => y["uri"])[0].uri[0];
+      const title = x.binding.filter(y => y["literal"])[0].literal[0]["_"];
+      const image = x.binding
+        .filter(y => y["$"].name === "image")
+        .map(y => y.uri[0])[0];
+      if (!image && !title) {
+        return null;
+      }
+      return { uri, title, image, id: idFromURI(uri) };
+    })
+    .filter(Boolean);
   return list;
 };
 
@@ -147,10 +153,6 @@ LIMIT 1000
 
   return results.map(x => {
     const uri = x.binding.filter(y => y["uri"])[0].uri[0];
-    prettyLog(uri);
-    if (uri.split(",").length > 1) {
-      prettyLog(uri);
-    }
     return uri.split(",")[0];
   });
 };
@@ -160,16 +162,6 @@ const augmentSubSubclassWithOptions = async subSubclass => {
     ...subSubclass,
     images: await getImagesOfSubSubclass(subSubclass.id)
   };
-};
-
-const intFromSeed = seed => {
-  const encoded = JSON.stringify(seed);
-  const hash = createHash("md5")
-    .update(encoded, "utf8")
-    .digest()
-    .toString("hex");
-  const s = hash.slice(-10);
-  return parseInt(s, 16);
 };
 
 const subclassQuestions = name => [
@@ -201,13 +193,6 @@ const pickYourFavoriteSubclassQuestion = (subclassImages, seed) => {
     instructions: randomFromList(seed, subclassQuestions(name)),
     options: subclassImages[i].images.map(x => ({ image: x })).slice(0, 6)
   };
-};
-
-const randomFromList = (seed, list) => {
-  if (list.length === 1) {
-    return list[0];
-  }
-  return list[intFromSeed(seed) % (list.length - 1)];
 };
 
 const yesOrNoOptionses = [
@@ -247,7 +232,7 @@ const randomImage = (subclassImages, seed) =>
   randomFromList(
     seed,
     subclassImages.reduce((acc, x) => {
-      return [...acc, x.images];
+      return [...acc, ...x.images];
     }, [])
   );
 

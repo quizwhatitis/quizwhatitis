@@ -1,6 +1,7 @@
 import quizzes from "../../../quizzes_with_results_and_answers";
 import { createHash } from "crypto";
 import { readFileSync } from "fs";
+import { intFromSeed } from "../../../util";
 
 export default async (req, res) => {
   let body;
@@ -28,18 +29,26 @@ async function getQuiz({ query: { id } }) {
 
 async function recordQuizResult({ body, query: { id } }) {
   const { answers } = JSON.parse(body);
-  const choice = answersAsInteger(answers);
+  const choice = intFromSeed(answers);
   const { possible_results } = quizzes.find(q => q.id === id);
-  const result = possible_results[choice % possible_results.length].title;
-  return { result };
-}
+  const result = possible_results[choice % possible_results.length];
 
-function answersAsInteger(answers) {
-  const encoded = JSON.stringify(answers);
-  const hash = createHash("md5")
-    .update(encoded, "utf8")
-    .digest()
-    .toString("hex");
-  const s = hash.slice(-10);
-  return parseInt(s, 16);
+  const { title } = result;
+  console.log(possible_results);
+  console.log(result);
+  console.log(title);
+
+  const wikiData = await (
+    await fetch(
+      `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts%7Cpageimages&titles=${encodeURIComponent(
+        title
+      )}&exintro=1`
+    )
+  ).json();
+
+  const { thumbnail } = Object.values(wikiData.query.pages)[0];
+  const imageUrl = thumbnail ? thumbnail.source : null;
+
+  const extract = Object.values(wikiData.query.pages)[0].extract;
+  return { title, imageUrl, extract };
 }

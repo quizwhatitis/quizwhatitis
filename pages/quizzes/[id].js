@@ -18,13 +18,13 @@ function QuizIntro({ itemName, handleBegin }) {
   );
 }
 
-function QuizResult({ result, answers }) {
+function QuizResult({ result: { title, extract, imageUrl }, answers }) {
   return (
     <>
       <h1 className="title">You are a:</h1>
-      <div className="row">
-        <h2>{result}</h2>
-      </div>
+      <h2>{title}</h2>
+      <pre>{extract}</pre>
+      {imageUrl ? <img src={imageUrl} width="400" /> : null}
     </>
   );
 }
@@ -88,7 +88,7 @@ class Quiz extends React.Component {
           method: "POST",
           body
         });
-        const result = (await res.json()).result;
+        const result = await res.json();
         this.setState({ result });
       }
     );
@@ -136,7 +136,7 @@ class Quiz extends React.Component {
                 key={`${i}`}
               >
                 {option.image ? (
-                  <img src={option.image} width="300" />
+                  <img src={option.image} className="cardImage" />
                 ) : (
                   <h3>{option.label}</h3>
                 )}
@@ -186,15 +186,19 @@ const style = (
   justify-content: space-around;
 }
 .card {
-  padding: 18px 18px 24px;
-  width: 220px;
-  text-align: left;
+  padding: 18px;
+  width: 250px;
+  text-align: center;
   text-decoration: none;
   color: #434343;
   border: 1px solid #9b9b9b;
 }
+.cardImage {
+width: 240px; margin: auto;
+}
 .card:hover {
   border-color: #067df7;
+  filter: invert(30%);
 }
 .card h3 {
   margin: 0;
