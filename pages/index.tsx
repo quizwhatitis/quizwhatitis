@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Nav from "../components/nav";
+import Vote from "../components/vote";
 import fetch from "isomorphic-unfetch";
 import config from '../config'
 
@@ -16,10 +17,7 @@ function Home({ quizzes }) {
       <Head>
         <title>Quiz what it is</title>
         <link rel="icon" href="/favicon.ico" />
-        <script
-          src="http://www.nodeknockout.com/entries/40-twisted-ankle/vote.js"
-          type="text/javascript"
-        ></script>
+        <Vote/>
       </Head>
 
       <Nav />
