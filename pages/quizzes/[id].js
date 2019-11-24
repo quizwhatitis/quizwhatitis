@@ -24,13 +24,6 @@ function QuizResult({ result, answers }) {
       <div className="row">
         <h2>{result}</h2>
       </div>
-      <ul>
-        {Object.keys(answers).map(q => (
-          <li key={q}>
-            {q}: {answers[q]}
-          </li>
-        ))}
-      </ul>
     </>
   );
 }
@@ -87,7 +80,6 @@ class Quiz extends React.Component {
       },
       async () => {
         if (nextQuestion) return;
-        console.log("👋 hi ilia");
         const { answers } = this.state;
         const body = JSON.stringify({ answers });
         const res = await fetch(`${config.serverUri}/api/quizzes/${id}`, {
@@ -95,10 +87,8 @@ class Quiz extends React.Component {
           body
         });
         const result = (await res.json()).result;
-        console.log("👀", result);
-        this.setState({ result });
-      }
-    );
+        this.setState({ result })
+      });
   };
 
   render() {
@@ -119,7 +109,12 @@ class Quiz extends React.Component {
       );
     }
 
+
     const question = questions[page];
+
+    if (!question) {
+      return null;
+    }
 
     return renderPage(
       <div key={question}>

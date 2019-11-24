@@ -1,4 +1,5 @@
-import quizzes from "../../../littlequizzeswithpossibleresults";
+import quizzes from '../../../littlequizzeswithpossibleresults';
+import { createHash } from 'crypto';
 
 export default async (req, res) => {
   let body;
@@ -41,11 +42,17 @@ async function getQuestions(id) {
   ];
 }
 
-async function recordQuizResult({ query: { id, answers } }) {
-  console.log("sgsdlfsdfljkxd", id, answers);
+async function recordQuizResult({ body, query: { id }}) {
+  const { answers } = JSON.parse(body);
+  const choice = answersAsInteger(answers);
   const { possible_results } = quizzes.find(q => q.id === id);
-  const n = possible_results.length;
-  const choice = Math.floor(Math.random() * 10000) % n;
-  const result = possible_results[choice].title;
+  const result = possible_results[choice % possible_results.length].title
   return { result };
 }
+
+function answersAsInteger(answers) {
+  const encoded = JSON.stringify(answers);
+  const hash = createHash('md5').update(encoded, 'utf8').digest().toString('hex');
+  const s = hash.slice(-10);
+  return parseInt(s, 16);
+};
