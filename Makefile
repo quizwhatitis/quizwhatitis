@@ -8,5 +8,7 @@ littlequizzeswithpossibleresults.json: littlequizzes.json fetchLists.js
 pickyourfavorite.json:
 	node fetchLists.js pickyourfavorite > pickyourfavorite.json
 
+littlequizzesfull.json: littlequizzeswithpossibleresults.json pickyourfavorite.json
+	node fetchLists.js addanswers > littlequizzesfull.json
 deploy:
 	git push heroku master

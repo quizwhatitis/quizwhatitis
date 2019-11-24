@@ -1,9 +1,11 @@
 const fetch = require("node-fetch");
 const { promisify } = require("util");
+const { createHash } = require("crypto");
 const parseString = promisify(require("xml2js").parseString);
 const fs = require("fs");
 
 const action = process.argv[2];
+const source = process.argv[3];
 
 const prettyPrint = x => console.log(JSON.stringify(x, null, 2));
 const prettyLog = x => console.error(JSON.stringify(x, null, 2));
@@ -159,6 +161,66 @@ const augmentSubSubclassWithOptions = async subSubclass => {
   };
 };
 
+const intFromSeed = seed => {
+  const encoded = JSON.stringify(seed);
+  const hash = createHash("md5")
+    .update(encoded, "utf8")
+    .digest()
+    .toString("hex");
+  const s = hash.slice(-10);
+  return parseInt(s, 16);
+};
+
+const pickYourFavoriteSubclassQuestion = (pickYourFavoriteCorpus, seed) => {
+  const i = intFromSeed(seed) % (pickYourFavoriteCorpus.length - 1);
+  const name = pickYourFavoriteCorpus[i].subSubclassName;
+
+  const images = [...pickYourFavoriteCorpus[i].images].sort((x, y) => {
+    return (
+      intFromSeed(JSON.stringify(seed) + x) <
+      intFromSeed(JSON.stringify(seed) + y)
+    );
+  });
+
+  return {
+    instructions: `Pick your favorite ${name}`,
+    options: pickYourFavoriteCorpus[i].images
+      .map(x => ({ image: x }))
+      .slice(0, 6)
+  };
+};
+
+const randomFromList = (seed, list) => {
+  return list[intFromSeed(seed) % (list.length - 1)];
+};
+
+const sandwichOptionses = [
+  ["yes", "no"],
+  ["yes", "no", "absolutely yes"],
+  ["yes", "absolutely yes"],
+  ["yes", "yes!!!!"],
+  ["this looks nothing like a sandwich", "no"]
+];
+const isThisASandwichQuestion = (pickYourFavoriteCorpus, seed) => {
+  const allImages = pickYourFavoriteCorpus.reduce((acc, x) => {
+    return [...acc, x.images];
+  }, []);
+  const questionImage = randomFromList(seed, allImages);
+  return {
+    instructions: "Is this a sandwich?",
+    questionImage,
+    options: randomFromList(seed, sandwichOptionses).map(x => ({ label: x }))
+  };
+};
+
+const generateRandomQuestion = (pickYourFavoriteCorpus, seed) => {
+  const r = (intFromSeed(seed) / 100) % 1;
+  if (r < 0.1) {
+    return isThisASandwichQuestion(pickYourFavoriteCorpus, seed);
+  }
+  return pickYourFavoriteSubclassQuestion(pickYourFavoriteCorpus, seed);
+};
+
 const main = async () => {
   if (action === "quizzes") {
     prettyPrint(await fetchQuizList());
@@ -178,6 +240,24 @@ const main = async () => {
     ];
     prettyPrint(
       await Promise.all(subclasses.map(augmentSubSubclassWithOptions))
+    );
+  }
+  if (action === "addanswers") {
+    const quizzes = JSON.parse(
+      fs.readFileSync("littlequizzeswithpossibleresults.json")
+    );
+    const pickYourFavoriteCorpus = JSON.parse(
+      fs.readFileSync("pickyourfavorite.json")
+    );
+    prettyPrint(
+      quizzes.map(quiz => ({
+        ...quiz,
+        questions: new Array(5)
+          .fill(0)
+          .map(_ =>
+            generateRandomQuestion(pickYourFavoriteCorpus, Math.random())
+          )
+      }))
     );
   }
 };

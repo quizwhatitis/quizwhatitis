@@ -1,4 +1,4 @@
-import quizzes from "../../../littlequizzeswithpossibleresults";
+import quizzes from "../../../littlequizzesfull";
 import pickyourfavorite from "../../../pickyourfavorite";
 import { createHash } from "crypto";
 import { readFileSync } from "fs";
@@ -24,14 +24,14 @@ async function getQuiz({ query: { id } }) {
     return {};
   }
 
-  const questions = await getQuestions(id);
-  return { quiz, questions };
+  return { quiz, questions: quiz.questions };
 }
 
 const pickYourFavoriteToQuestion = x => ({
   instructions: `Pick your favorite ${x.subSubclassName}`,
   options: x.images.map(x => ({ image: x })).slice(0, 6)
 });
+
 async function getQuestions(id) {
   return [
     pickYourFavoriteToQuestion(pickyourfavorite[19]),
