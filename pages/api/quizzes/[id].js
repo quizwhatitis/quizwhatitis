@@ -46,7 +46,7 @@ const allPersonalityTraits = [
   "prudence",
   "evil",
   "mischief",
-  "relilience",
+  "resilience",
   "steadfastness",
   "trustworthiness",
   "mercy",
