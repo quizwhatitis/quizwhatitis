@@ -2,6 +2,7 @@ import quizzes from "../../../quizzes_with_results_and_answers";
 import { createHash } from "crypto";
 import { readFileSync } from "fs";
 import { intFromSeed } from "../../../util";
+import * as sanitizeHtml from "sanitize-html";
 
 export default async (req, res) => {
   let body;
@@ -49,6 +50,6 @@ async function recordQuizResult({ body, query: { id } }) {
   const { thumbnail } = Object.values(wikiData.query.pages)[0];
   const imageUrl = thumbnail ? thumbnail.source : null;
 
-  const extract = Object.values(wikiData.query.pages)[0].extract;
+  const extract = sanitizeHtml(Object.values(wikiData.query.pages)[0].extract);
   return { title, imageUrl, extract };
 }

@@ -21,9 +21,10 @@ function QuizIntro({ itemName, handleBegin }) {
 function QuizResult({ result: { title, extract, imageUrl }, answers }) {
   return (
     <>
-      <h1 className="title">You are a:</h1>
-      <h2>{title}</h2>
-      <pre>{extract}</pre>
+      <h1 className="title">
+        Congratulations! You have the personality of {title}
+      </h1>
+      <div dangerouslySetInnerHTML={{ __html: extract }} />
       {imageUrl ? <img src={imageUrl} width="400" /> : null}
     </>
   );
