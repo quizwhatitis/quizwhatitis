@@ -179,8 +179,6 @@ const main = async () => {
     prettyPrint(
       await Promise.all(subclasses.map(augmentSubSubclassWithOptions))
     );
-
-    //prettyPrint(await fetchAnimalImages());
   }
 };
 

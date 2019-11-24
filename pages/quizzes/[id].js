@@ -35,7 +35,7 @@ function renderPage(children) {
       <Head>
         <title>Quiz what it is</title>
         <link rel="icon" href="/favicon.ico" />
-        <Vote/>
+        <Vote />
       </Head>
 
       <Nav />
@@ -89,8 +89,9 @@ class Quiz extends React.Component {
           body
         });
         const result = (await res.json()).result;
-        this.setState({ result })
-      });
+        this.setState({ result });
+      }
+    );
   };
 
   render() {
@@ -111,7 +112,6 @@ class Quiz extends React.Component {
       );
     }
 
-
     const question = questions[page];
 
     if (!question) {
@@ -130,7 +130,11 @@ class Quiz extends React.Component {
                 className="card"
                 key={`${i}`}
               >
-                <h3>{option.label}</h3>
+                {option.image ? (
+                  <img src={option.image} width="300" />
+                ) : (
+                  <h3>{option.label}</h3>
+                )}
               </a>
             );
           })}
