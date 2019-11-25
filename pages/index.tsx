@@ -170,7 +170,7 @@ const style = (
   padding-top: 10px;
   padding-bottom: 10px;
   max-width: 80%;
-  max-height: 100px;
+  max-height: 80%;
 }
 
 .card .bottom {
@@ -196,9 +196,17 @@ const style = (
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 400px) {
+  .card {
+    width: 100px;
+  }
+
+  .card .top {
+    height: 75px;
+  }
+
   .card h3 {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 }
 
