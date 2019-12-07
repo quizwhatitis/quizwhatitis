@@ -1,8 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Router from 'next/router'
+import Router from "next/router";
 import Nav from "../../components/nav";
-import Vote from "../../components/vote";
 import fetch from "isomorphic-unfetch";
 import config from "../../config";
 
@@ -26,7 +25,6 @@ function renderPage(children) {
         <title>Quiz what it is</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/styles.css" />
-        <Vote />
       </Head>
 
       <Nav />
@@ -70,12 +68,14 @@ class Quiz extends React.Component {
       async () => {
         if (nextQuestion) return;
         const { answers } = this.state;
-        Router.push(`/quizzes/${id}/thisisyou?a=${this.encodeAnswers(answers)}`)
+        Router.push(
+          `/quizzes/${id}/thisisyou?a=${this.encodeAnswers(answers)}`
+        );
       }
     );
   };
 
-  encodeAnswers = (answers) => btoa(JSON.stringify(answers))
+  encodeAnswers = answers => btoa(JSON.stringify(answers));
 
   render() {
     const { quiz, questions } = this.props;

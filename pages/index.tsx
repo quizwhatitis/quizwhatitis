@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import Nav from "../components/nav";
-import Vote from "../components/vote";
 import fetch from "isomorphic-unfetch";
 import config from '../config'
 import colors from '../colors'
@@ -55,7 +54,6 @@ function Home({ featuredQuizzes, randomQuizzes }) {
         <title>Quiz what it is</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css?family=B612&display=swap" rel="stylesheet" />
-        <Vote/>
       </Head>
 
       <Nav />
